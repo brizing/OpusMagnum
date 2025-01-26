@@ -1,1 +1,1 @@
-/* 🍺 */
+( function( global, factory ) {
