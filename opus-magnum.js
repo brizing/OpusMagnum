@@ -25,3 +25,5 @@ var arr = [];
 var getProto = Object.getPrototypeOf;
 
 var slice = arr.slice;
+
+// Support: IE 11+
