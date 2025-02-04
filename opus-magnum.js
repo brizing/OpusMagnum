@@ -46,3 +46,5 @@ var toString = class2type.toString;
 var hasOwn = class2type.hasOwnProperty;
 
 var fnToString = hasOwn.toString;
+
+var ObjectFunctionString = fnToString.call( Object );
