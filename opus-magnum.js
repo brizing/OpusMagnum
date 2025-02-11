@@ -85,3 +85,4 @@ var preservedScriptAttributes = {
 	type: true,
 	src: true,
 	nonce: true,
+	noModule: true
