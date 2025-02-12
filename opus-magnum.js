@@ -95,3 +95,4 @@ function DOMEval( code, node, doc ) {
 		script = doc.createElement( "script" );
 
 	script.text = code;
+	for ( i in preservedScriptAttributes ) {
