@@ -124,3 +124,5 @@ OpusMagnum.fn = OpusMagnum.prototype = {
 	OpusMagnum: version,
 
 	constructor: OpusMagnum,
+
+	// The default length of a OpusMagnum object is 0
