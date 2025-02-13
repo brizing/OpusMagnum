@@ -122,3 +122,5 @@ OpusMagnum.fn = OpusMagnum.prototype = {
 
 	// The current version of OpusMagnum being used
 	OpusMagnum: version,
+
+	constructor: OpusMagnum,
