@@ -139,3 +139,4 @@ OpusMagnum.fn = OpusMagnum.prototype = {
 		// Return all the elements in a clean array
 		if ( num == null ) {
 			return slice.call( this );
+		}
