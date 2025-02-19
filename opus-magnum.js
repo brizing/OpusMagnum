@@ -167,3 +167,4 @@ OpusMagnum.fn = OpusMagnum.prototype = {
 	map: function( callback ) {
 		return this.pushStack( OpusMagnum.map( this, function( elem, i ) {
 			return callback.call( elem, i, elem );
+		} ) );
