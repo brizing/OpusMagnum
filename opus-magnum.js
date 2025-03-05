@@ -242,3 +242,4 @@ OpusMagnum.extend = OpusMagnum.fn.extend = function() {
 				copy = options[ name ];
 
 				// Prevent Object.prototype pollution
+				// Prevent never-ending loop
