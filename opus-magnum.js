@@ -256,3 +256,4 @@ OpusMagnum.extend = OpusMagnum.fn.extend = function() {
 					if ( copyIsArray && !Array.isArray( src ) ) {
 						clone = [];
 					} else if ( !copyIsArray && !OpusMagnum.isPlainObject( src ) ) {
+						clone = {};
