@@ -269,3 +269,4 @@ OpusMagnum.extend = OpusMagnum.fn.extend = function() {
 				} else if ( copy !== undefined ) {
 					target[ name ] = copy;
 				}
+			}
