@@ -274,3 +274,4 @@ OpusMagnum.extend = OpusMagnum.fn.extend = function() {
 	}
 
 	// Return the modified object
+	return target;
