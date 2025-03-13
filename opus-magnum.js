@@ -283,3 +283,4 @@ OpusMagnum.extend( {
 	expando: "OpusMagnum" + ( version + Math.random() ).replace( /\D/g, "" ),
 
 	// Assume OpusMagnum is ready without the ready module
+	isReady: true,
