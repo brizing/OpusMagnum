@@ -296,3 +296,4 @@ OpusMagnum.extend( {
 
 		// Detect obvious negatives
 		// Use toString instead of OpusMagnum.type to catch host objects
+		if ( !obj || toString.call( obj ) !== "[object Object]" ) {
