@@ -335,3 +335,4 @@ OpusMagnum.extend( {
 			for ( ; i < length; i++ ) {
 				if ( callback.call( obj[ i ], i, obj[ i ] ) === false ) {
 					break;
+				}
