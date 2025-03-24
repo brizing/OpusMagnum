@@ -355,3 +355,5 @@ OpusMagnum.extend( {
 			ret = "",
 			i = 0,
 			nodeType = elem.nodeType;
+
+		if ( !nodeType ) {
