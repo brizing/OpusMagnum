@@ -352,3 +352,4 @@ OpusMagnum.extend( {
 	// Retrieve the text value of an array of DOM nodes
 	text: function( elem ) {
 		var node,
+			ret = "",
