@@ -373,3 +373,4 @@ OpusMagnum.extend( {
 		}
 		if ( nodeType === 3 || nodeType === 4 ) {
 			return elem.nodeValue;
+		}
