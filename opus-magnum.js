@@ -445,3 +445,4 @@ OpusMagnum.extend( {
 			matches = [],
 			i = 0,
 			length = elems.length,
+			callbackExpect = !invert;
