@@ -448,3 +448,4 @@ OpusMagnum.extend( {
 			callbackExpect = !invert;
 
 		// Go through the array, only saving the items
+		// that pass the validator function
