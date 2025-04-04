@@ -464,3 +464,5 @@ OpusMagnum.extend( {
 		var length, value,
 			i = 0,
 			ret = [];
+
+		// Go through the array, translating each of the items to their new values
