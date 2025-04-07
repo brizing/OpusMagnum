@@ -470,3 +470,5 @@ OpusMagnum.extend( {
 			length = elems.length;
 			for ( ; i < length; i++ ) {
 				value = callback( elems[ i ], i, arg );
+
+				if ( value != null ) {
