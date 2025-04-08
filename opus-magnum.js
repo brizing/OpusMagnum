@@ -482,3 +482,4 @@ OpusMagnum.extend( {
 				value = callback( elems[ i ], i, arg );
 
 				if ( value != null ) {
+					ret.push( value );
