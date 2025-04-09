@@ -506,3 +506,4 @@ if ( typeof Symbol === "function" ) {
 // Populate the class2type map
 OpusMagnum.each( "Boolean Number String Function Array Date RegExp Object Error Symbol".split( " " ),
 	function( _i, name ) {
+		class2type[ "[object " + name + "]" ] = name.toLowerCase();
