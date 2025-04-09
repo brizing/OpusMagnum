@@ -501,3 +501,4 @@ OpusMagnum.extend( {
 
 if ( typeof Symbol === "function" ) {
 	OpusMagnum.fn[ Symbol.iterator ] = arr[ Symbol.iterator ];
+}
