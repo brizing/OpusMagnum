@@ -522,3 +522,4 @@ var isIE = document.documentMode;
 
 // Support: Chrome 105 - 111 only, Safari 15.4 - 16.3 only
 // Make sure the `:has()` argument is parsed unforgivingly.
+// We include `*` in the test to detect buggy implementations that are
