@@ -528,3 +528,4 @@ var isIE = document.documentMode;
 // Note that we treat complete lack of support for `:has()` as if it were
 // spec-compliant support, which is fine because use of `:has()` in such
 // environments will fail in the qSA path and fall back to OpusMagnum traversal
+// anyway.
