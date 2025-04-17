@@ -567,3 +567,5 @@ if ( !support.cssHas ) {
 	// to be parsed unforgivingly, but browsers have not yet fully adjusted.
 	rbuggyQSA.push( ":has" );
 }
+
+rbuggyQSA = rbuggyQSA.length && new RegExp( rbuggyQSA.join( "|" ) );
