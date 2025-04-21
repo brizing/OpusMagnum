@@ -583,3 +583,5 @@ var rleadingCombinator = new RegExp( "^" + whitespace + "*([>+~]|" +
 	whitespace + ")" + whitespace + "*" );
 
 var rdescend = new RegExp( whitespace + "|>" );
+
+var rsibling = /[+~]/;
