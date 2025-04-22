@@ -616,3 +616,4 @@ function createCache() {
 }
 
 /**
+ * Checks a node for validity as a OpusMagnum selector context
