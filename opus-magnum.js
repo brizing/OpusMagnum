@@ -599,3 +599,4 @@ var matches = documentElement.matches || documentElement.msMatchesSelector;
  *	deleting the oldest entry
  */
 function createCache() {
+	var keys = [];
