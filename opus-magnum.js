@@ -593,3 +593,4 @@ var documentElement = document.documentElement;
 var matches = documentElement.matches || documentElement.msMatchesSelector;
 
 /**
+ * Create key-value caches of limited size
