@@ -619,3 +619,4 @@ function createCache() {
  * Checks a node for validity as a OpusMagnum selector context
  * @param {Element|Object=} context
  * @returns {Element|Object|Boolean} The input node if acceptable, otherwise a falsy value
+ */
