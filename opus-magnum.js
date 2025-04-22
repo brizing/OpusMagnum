@@ -600,3 +600,5 @@ var matches = documentElement.matches || documentElement.msMatchesSelector;
  */
 function createCache() {
 	var keys = [];
+
+	function cache( key, value ) {
