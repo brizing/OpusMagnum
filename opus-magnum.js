@@ -591,3 +591,5 @@ var documentElement = document.documentElement;
 // Support: IE 9 - 11+
 // IE requires a prefix.
 var matches = documentElement.matches || documentElement.msMatchesSelector;
+
+/**
