@@ -623,3 +623,5 @@ function createCache() {
 function testContext( context ) {
 	return context && typeof context.getElementsByTagName !== "undefined" && context;
 }
+
+// Attribute selectors: https://www.w3.org/TR/selectors/#attribute-selectors
