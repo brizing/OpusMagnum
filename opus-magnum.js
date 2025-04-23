@@ -628,3 +628,4 @@ function testContext( context ) {
 var attributes = "\\[" + whitespace + "*(" + identifier + ")(?:" + whitespace +
 
 	// Operator (capture 2)
+	"*([*^$|!~]?=)" + whitespace +
