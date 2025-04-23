@@ -632,3 +632,4 @@ var attributes = "\\[" + whitespace + "*(" + identifier + ")(?:" + whitespace +
 
 	// "Attribute values must be CSS identifiers [capture 5] or strings [capture 3 or capture 4]"
 	"*(?:'((?:\\\\.|[^\\\\'])*)'|\"((?:\\\\.|[^\\\\\"])*)\"|(" + identifier + "))|)" +
+	whitespace + "*\\]";
