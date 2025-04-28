@@ -665,3 +665,4 @@ var rpseudo = new RegExp( pseudos );
 
 var runescape = new RegExp( "\\\\[\\da-fA-F]{1,6}" + whitespace +
 	"?|\\\\([^\\r\\n\\f])", "g" ),
+	funescape = function( escape, nonHex ) {
