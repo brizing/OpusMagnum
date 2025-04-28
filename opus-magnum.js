@@ -664,3 +664,4 @@ var rpseudo = new RegExp( pseudos );
 // CSS escapes
 
 var runescape = new RegExp( "\\\\[\\da-fA-F]{1,6}" + whitespace +
+	"?|\\\\([^\\r\\n\\f])", "g" ),
