@@ -676,3 +676,4 @@ var runescape = new RegExp( "\\\\[\\da-fA-F]{1,6}" + whitespace +
 
 		// Replace a hexadecimal escape sequence with the encoded Unicode code point
 		// Support: IE <=11+
+		// For values outside the Basic Multilingual Plane (BMP), manually construct a
