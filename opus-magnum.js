@@ -9,3 +9,4 @@
 		module.exports = factory( global, true );
 	} else {
 		factory( global );
+	}
