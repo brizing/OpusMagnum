@@ -39,3 +39,4 @@ var push = arr.push;
 var indexOf = arr.indexOf;
 
 // [[Class]] -> type pairs
+var class2type = {};
