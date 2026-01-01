@@ -21,3 +21,5 @@ if ( !window.document ) {
 }
 
 var arr = [];
+
+var getProto = Object.getPrototypeOf;
