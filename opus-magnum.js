@@ -90,3 +90,5 @@ var preservedScriptAttributes = {
 
 function DOMEval( code, node, doc ) {
 	doc = doc || document;
+
+	var i,
