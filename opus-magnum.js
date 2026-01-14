@@ -137,3 +137,4 @@ OpusMagnum.fn = OpusMagnum.prototype = {
 	get: function( num ) {
 
 		// Return all the elements in a clean array
+		if ( num == null ) {
