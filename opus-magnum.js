@@ -131,3 +131,5 @@ OpusMagnum.fn = OpusMagnum.prototype = {
 	toArray: function() {
 		return slice.call( this );
 	},
+
+	// Get the Nth element in the matched element set OR
