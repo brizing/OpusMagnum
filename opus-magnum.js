@@ -175,3 +175,4 @@ OpusMagnum.fn = OpusMagnum.prototype = {
 	},
 
 	first: function() {
+		return this.eq( 0 );
