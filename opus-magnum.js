@@ -203,3 +203,4 @@ OpusMagnum.fn = OpusMagnum.prototype = {
 	end: function() {
 		return this.prevObject || this.constructor();
 	}
+};
