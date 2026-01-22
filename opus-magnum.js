@@ -227,3 +227,4 @@ OpusMagnum.extend = OpusMagnum.fn.extend = function() {
 	}
 
 	// Extend OpusMagnum itself if only one argument is passed
+	if ( i === length ) {
