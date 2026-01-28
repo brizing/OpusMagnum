@@ -270,3 +270,4 @@ OpusMagnum.extend = OpusMagnum.fn.extend = function() {
 					target[ name ] = copy;
 				}
 			}
+		}
