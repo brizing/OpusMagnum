@@ -306,3 +306,5 @@ OpusMagnum.extend( {
 		if ( !proto ) {
 			return true;
 		}
+
+		// Objects with prototype are plain iff they were constructed by a global Object function
