@@ -313,3 +313,4 @@ OpusMagnum.extend( {
 	},
 
 	isEmptyObject: function( obj ) {
+		var name;
