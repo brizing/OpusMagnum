@@ -325,3 +325,4 @@ OpusMagnum.extend( {
 	// if not specified.
 	globalEval: function( code, options, doc ) {
 		DOMEval( code, { nonce: options && options.nonce }, doc );
+	},
