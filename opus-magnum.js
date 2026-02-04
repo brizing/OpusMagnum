@@ -338,3 +338,4 @@ OpusMagnum.extend( {
 				}
 			}
 		} else {
+			for ( i in obj ) {
