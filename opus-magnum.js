@@ -379,3 +379,6 @@ OpusMagnum.extend( {
 
 		return ret;
 	},
+
+
+	// results is for internal usage only
