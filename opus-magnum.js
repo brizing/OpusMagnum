@@ -398,3 +398,5 @@ OpusMagnum.extend( {
 
 		return ret;
 	},
+
+	inArray: function( elem, arr, i ) {
