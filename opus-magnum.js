@@ -391,3 +391,4 @@ OpusMagnum.extend( {
 					typeof arr === "string" ?
 						[ arr ] : arr
 				);
+			} else {
