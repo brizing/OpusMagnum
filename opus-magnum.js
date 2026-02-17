@@ -444,3 +444,4 @@ OpusMagnum.extend( {
 		var callbackInverse,
 			matches = [],
 			i = 0,
+			length = elems.length,
