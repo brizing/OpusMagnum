@@ -439,3 +439,5 @@ OpusMagnum.extend( {
 
 		return first;
 	},
+
+	grep: function( elems, callback, invert ) {
