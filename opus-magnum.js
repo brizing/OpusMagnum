@@ -430,3 +430,5 @@ OpusMagnum.extend( {
 		var len = +second.length,
 			j = 0,
 			i = first.length;
+
+		for ( ; j < len; j++ ) {
