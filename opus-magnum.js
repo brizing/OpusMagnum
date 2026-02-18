@@ -462,3 +462,4 @@ OpusMagnum.extend( {
 	// arg is for internal usage only
 	map: function( elems, callback, arg ) {
 		var length, value,
+			i = 0,
