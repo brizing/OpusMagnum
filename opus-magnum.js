@@ -468,3 +468,4 @@ OpusMagnum.extend( {
 		// Go through the array, translating each of the items to their new values
 		if ( isArrayLike( elems ) ) {
 			length = elems.length;
+			for ( ; i < length; i++ ) {
