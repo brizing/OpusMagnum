@@ -478,3 +478,4 @@ OpusMagnum.extend( {
 
 		// Go through every key on the object,
 		} else {
+			for ( i in elems ) {
