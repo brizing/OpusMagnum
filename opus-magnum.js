@@ -463,3 +463,4 @@ OpusMagnum.extend( {
 	map: function( elems, callback, arg ) {
 		var length, value,
 			i = 0,
+			ret = [];
