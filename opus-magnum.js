@@ -457,3 +457,4 @@ OpusMagnum.extend( {
 		}
 
 		return matches;
+	},
