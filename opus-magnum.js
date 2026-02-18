@@ -475,3 +475,5 @@ OpusMagnum.extend( {
 					ret.push( value );
 				}
 			}
+
+		// Go through every key on the object,
