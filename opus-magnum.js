@@ -485,3 +485,4 @@ OpusMagnum.extend( {
 					ret.push( value );
 				}
 			}
+		}
