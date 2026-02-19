@@ -486,3 +486,5 @@ OpusMagnum.extend( {
 				}
 			}
 		}
+
+		// Flatten any nested arrays
