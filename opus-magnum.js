@@ -502,3 +502,5 @@ OpusMagnum.extend( {
 if ( typeof Symbol === "function" ) {
 	OpusMagnum.fn[ Symbol.iterator ] = arr[ Symbol.iterator ];
 }
+
+// Populate the class2type map
