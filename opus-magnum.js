@@ -532,3 +532,4 @@ var isIE = document.documentMode;
 try {
 	document.querySelector( ":has(*,:omfake)" );
 	support.cssHas = false;
+} catch ( e ) {
