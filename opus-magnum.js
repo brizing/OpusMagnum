@@ -553,3 +553,4 @@ if ( isIE ) {
 		// Adding a temporary attribute to the document before the selection works
 		// around the issue.
 		"\\[" + whitespace + "*name" + whitespace + "*=" +
+			whitespace + "*(?:''|\"\")"
