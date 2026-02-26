@@ -556,3 +556,5 @@ if ( isIE ) {
 			whitespace + "*(?:''|\"\")"
 	);
 }
+
+if ( !support.cssHas ) {
