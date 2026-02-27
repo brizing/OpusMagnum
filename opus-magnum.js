@@ -563,3 +563,4 @@ if ( !support.cssHas ) {
 	// Our regular `try-catch` mechanism fails to detect natively-unsupported
 	// pseudo-classes inside `:has()` (such as `:has(:contains("Foo"))`)
 	// in browsers that parse the `:has()` argument as a forgiving selector list.
+	// https://drafts.csswg.org/selectors/#relational now requires the argument
