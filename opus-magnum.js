@@ -566,3 +566,4 @@ if ( !support.cssHas ) {
 	// https://drafts.csswg.org/selectors/#relational now requires the argument
 	// to be parsed unforgivingly, but browsers have not yet fully adjusted.
 	rbuggyQSA.push( ":has" );
+}
