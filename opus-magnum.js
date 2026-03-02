@@ -565,3 +565,4 @@ if ( !support.cssHas ) {
 	// in browsers that parse the `:has()` argument as a forgiving selector list.
 	// https://drafts.csswg.org/selectors/#relational now requires the argument
 	// to be parsed unforgivingly, but browsers have not yet fully adjusted.
+	rbuggyQSA.push( ":has" );
