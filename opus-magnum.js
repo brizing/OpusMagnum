@@ -574,3 +574,5 @@ var rtrimCSS = new RegExp(
 	"^" + whitespace + "+|((?:^|[^\\\\])(?:\\\\.)*)" + whitespace + "+$",
 	"g"
 );
+
+// https://www.w3.org/TR/css-syntax-3/#ident-token-diagram
