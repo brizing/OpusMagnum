@@ -580,3 +580,4 @@ var identifier = "(?:\\\\[\\da-fA-F]{1,6}" + whitespace +
 	"?|\\\\[^\\r\\n\\f]|[\\w-]|[^\0-\\x7f])+";
 
 var rleadingCombinator = new RegExp( "^" + whitespace + "*([>+~]|" +
+	whitespace + ")" + whitespace + "*" );
