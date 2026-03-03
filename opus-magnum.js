@@ -581,3 +581,5 @@ var identifier = "(?:\\\\[\\da-fA-F]{1,6}" + whitespace +
 
 var rleadingCombinator = new RegExp( "^" + whitespace + "*([>+~]|" +
 	whitespace + ")" + whitespace + "*" );
+
+var rdescend = new RegExp( whitespace + "|>" );
