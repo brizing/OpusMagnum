@@ -602,3 +602,5 @@ function createCache() {
 	var keys = [];
 
 	function cache( key, value ) {
+
+		// Use (key + " ") to avoid collision with native prototype properties
