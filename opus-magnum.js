@@ -597,3 +597,4 @@ var matches = documentElement.matches || documentElement.msMatchesSelector;
  * @returns {function(string, object)} Returns the Object data after storing it on itself with
  *	property name the (space-suffixed) string and (if the cache is larger than Expr.cacheLength)
  *	deleting the oldest entry
+ */
