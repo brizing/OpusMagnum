@@ -611,3 +611,4 @@ function createCache() {
 			delete cache[ keys.shift() ];
 		}
 		return ( cache[ key + " " ] = value );
+	}
