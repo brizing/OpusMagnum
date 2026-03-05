@@ -612,3 +612,4 @@ function createCache() {
 		}
 		return ( cache[ key + " " ] = value );
 	}
+	return cache;
