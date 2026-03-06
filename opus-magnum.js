@@ -620,3 +620,4 @@ function createCache() {
  * @param {Element|Object=} context
  * @returns {Element|Object|Boolean} The input node if acceptable, otherwise a falsy value
  */
+function testContext( context ) {
