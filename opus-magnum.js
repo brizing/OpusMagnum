@@ -626,3 +626,5 @@ function testContext( context ) {
 
 // Attribute selectors: https://www.w3.org/TR/selectors/#attribute-selectors
 var attributes = "\\[" + whitespace + "*(" + identifier + ")(?:" + whitespace +
+
+	// Operator (capture 2)
