@@ -648,3 +648,4 @@ var pseudos = ":(" + identifier + ")(?:\\((" +
 	")\\)|)";
 
 var filterMatchExpr = {
+	ID: new RegExp( "^#(" + identifier + ")" ),
