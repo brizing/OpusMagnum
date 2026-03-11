@@ -635,3 +635,5 @@ var attributes = "\\[" + whitespace + "*(" + identifier + ")(?:" + whitespace +
 	whitespace + "*\\]";
 
 var pseudos = ":(" + identifier + ")(?:\\((" +
+
+	// To reduce the number of selectors needing tokenize in the preFilter, prefer arguments:
