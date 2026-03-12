@@ -653,3 +653,4 @@ var filterMatchExpr = {
 	TAG: new RegExp( "^(" + identifier + "|[*])" ),
 	ATTR: new RegExp( "^" + attributes ),
 	PSEUDO: new RegExp( "^" + pseudos ),
+	CHILD: new RegExp(
