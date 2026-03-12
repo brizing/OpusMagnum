@@ -658,3 +658,5 @@ var filterMatchExpr = {
 		whitespace + "*(even|odd|(([+-]|)(\\d*)n|)" + whitespace + "*(?:([+-]|)" +
 		whitespace + "*(\\d+)|))" + whitespace + "*\\)|)", "i" )
 };
+
+var rpseudo = new RegExp( pseudos );
