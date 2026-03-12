@@ -660,3 +660,5 @@ var filterMatchExpr = {
 };
 
 var rpseudo = new RegExp( pseudos );
+
+// CSS escapes
