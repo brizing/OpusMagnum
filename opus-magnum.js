@@ -656,3 +656,4 @@ var filterMatchExpr = {
 	CHILD: new RegExp(
 		"^:(only|first|last|nth|nth-last)-(child|of-type)(?:\\(" +
 		whitespace + "*(even|odd|(([+-]|)(\\d*)n|)" + whitespace + "*(?:([+-]|)" +
+		whitespace + "*(\\d+)|))" + whitespace + "*\\)|)", "i" )
