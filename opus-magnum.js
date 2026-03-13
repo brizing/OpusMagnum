@@ -667,3 +667,5 @@ var runescape = new RegExp( "\\\\[\\da-fA-F]{1,6}" + whitespace +
 	"?|\\\\([^\\r\\n\\f])", "g" ),
 	funescape = function( escape, nonHex ) {
 		var high = "0x" + escape.slice( 1 ) - 0x10000;
+
+		if ( nonHex ) {
