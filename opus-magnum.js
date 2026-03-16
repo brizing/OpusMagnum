@@ -678,3 +678,4 @@ var runescape = new RegExp( "\\\\[\\da-fA-F]{1,6}" + whitespace +
 		// Support: IE <=11+
 		// For values outside the Basic Multilingual Plane (BMP), manually construct a
 		// surrogate pair
+		return high < 0 ?
