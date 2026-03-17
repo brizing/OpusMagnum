@@ -688,3 +688,4 @@ function unescapeSelector( sel ) {
 }
 
 function selectorError( msg ) {
+	OpusMagnum.error( "Syntax error, unrecognized expression: " + msg );
