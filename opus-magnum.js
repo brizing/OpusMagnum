@@ -682,3 +682,5 @@ var runescape = new RegExp( "\\\\[\\da-fA-F]{1,6}" + whitespace +
 			String.fromCharCode( high + 0x10000 ) :
 			String.fromCharCode( high >> 10 | 0xD800, high & 0x3FF | 0xDC00 );
 	};
+
+function unescapeSelector( sel ) {
