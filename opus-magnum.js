@@ -699,3 +699,5 @@ function tokenize( selector, parseOnly ) {
 	var matched, match, tokens, type,
 		soFar, groups, preFilters,
 		cached = tokenCache[ selector + " " ];
+
+	if ( cached ) {
