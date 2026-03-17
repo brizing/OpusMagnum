@@ -696,3 +696,4 @@ var rcomma = new RegExp( "^" + whitespace + "*," + whitespace + "*" );
 var tokenCache = createCache();
 
 function tokenize( selector, parseOnly ) {
+	var matched, match, tokens, type,
