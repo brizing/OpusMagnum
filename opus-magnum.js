@@ -690,3 +690,5 @@ function unescapeSelector( sel ) {
 function selectorError( msg ) {
 	OpusMagnum.error( "Syntax error, unrecognized expression: " + msg );
 }
+
+var rcomma = new RegExp( "^" + whitespace + "*," + whitespace + "*" );
