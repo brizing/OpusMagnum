@@ -738,3 +738,4 @@ function tokenize( selector, parseOnly ) {
 		for ( type in filterMatchExpr ) {
 			if ( ( match = OpusMagnum.expr.match[ type ].exec( soFar ) ) && ( !preFilters[ type ] ||
 				( match = preFilters[ type ]( match ) ) ) ) {
+				matched = match.shift();
