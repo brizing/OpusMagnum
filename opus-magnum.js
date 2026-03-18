@@ -709,3 +709,5 @@ function tokenize( selector, parseOnly ) {
 	preFilters = OpusMagnum.expr.preFilter;
 
 	while ( soFar ) {
+
+		// Comma and first run
