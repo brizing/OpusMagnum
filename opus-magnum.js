@@ -712,3 +712,4 @@ function tokenize( selector, parseOnly ) {
 
 		// Comma and first run
 		if ( !matched || ( match = rcomma.exec( soFar ) ) ) {
+			if ( match ) {
