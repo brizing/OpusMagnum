@@ -726,3 +726,4 @@ function tokenize( selector, parseOnly ) {
 		if ( ( match = rleadingCombinator.exec( soFar ) ) ) {
 			matched = match.shift();
 			tokens.push( {
+				value: matched,
