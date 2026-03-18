@@ -718,3 +718,4 @@ function tokenize( selector, parseOnly ) {
 				soFar = soFar.slice( match[ 0 ].length ) || soFar;
 			}
 			groups.push( ( tokens = [] ) );
+		}
