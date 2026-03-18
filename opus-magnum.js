@@ -735,3 +735,4 @@ function tokenize( selector, parseOnly ) {
 		}
 
 		// Filters
+		for ( type in filterMatchExpr ) {
