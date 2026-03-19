@@ -754,3 +754,4 @@ function tokenize( selector, parseOnly ) {
 	}
 
 	// Return the length of the invalid excess
+	// if we're just parsing
