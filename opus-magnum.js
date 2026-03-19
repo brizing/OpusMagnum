@@ -740,3 +740,4 @@ function tokenize( selector, parseOnly ) {
 				( match = preFilters[ type ]( match ) ) ) ) {
 				matched = match.shift();
 				tokens.push( {
+					value: matched,
