@@ -743,3 +743,4 @@ function tokenize( selector, parseOnly ) {
 					value: matched,
 					type: type,
 					matches: match
+				} );
