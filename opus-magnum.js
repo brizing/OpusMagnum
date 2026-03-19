@@ -750,3 +750,4 @@ function tokenize( selector, parseOnly ) {
 
 		if ( !matched ) {
 			break;
+		}
