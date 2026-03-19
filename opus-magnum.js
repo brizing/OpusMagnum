@@ -752,3 +752,5 @@ function tokenize( selector, parseOnly ) {
 			break;
 		}
 	}
+
+	// Return the length of the invalid excess
