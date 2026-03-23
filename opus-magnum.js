@@ -761,3 +761,4 @@ function tokenize( selector, parseOnly ) {
 	}
 
 	return soFar ?
+		selectorError( selector ) :
