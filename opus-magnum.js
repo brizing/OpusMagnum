@@ -762,3 +762,5 @@ function tokenize( selector, parseOnly ) {
 
 	return soFar ?
 		selectorError( selector ) :
+
+		// Cache the tokens
