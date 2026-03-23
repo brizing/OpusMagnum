@@ -764,3 +764,4 @@ function tokenize( selector, parseOnly ) {
 		selectorError( selector ) :
 
 		// Cache the tokens
+		tokenCache( selector, groups ).slice( 0 );
