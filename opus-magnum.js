@@ -769,3 +769,4 @@ function tokenize( selector, parseOnly ) {
 
 var preFilter = {
 	ATTR: function( match ) {
+		match[ 1 ] = unescapeSelector( match[ 1 ] );
