@@ -780,3 +780,5 @@ var preFilter = {
 
 		return match.slice( 0, 4 );
 	},
+
+	CHILD: function( match ) {
