@@ -770,3 +770,5 @@ function tokenize( selector, parseOnly ) {
 var preFilter = {
 	ATTR: function( match ) {
 		match[ 1 ] = unescapeSelector( match[ 1 ] );
+
+		// Move the given value to match[3] whether quoted or unquoted
