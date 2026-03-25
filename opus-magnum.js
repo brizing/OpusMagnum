@@ -793,3 +793,4 @@ var preFilter = {
 			7 sign of y-component
 			8 y of y-component
 		*/
+		match[ 1 ] = match[ 1 ].toLowerCase();
