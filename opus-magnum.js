@@ -794,3 +794,5 @@ var preFilter = {
 			8 y of y-component
 		*/
 		match[ 1 ] = match[ 1 ].toLowerCase();
+
+		if ( match[ 1 ].slice( 0, 3 ) === "nth" ) {
