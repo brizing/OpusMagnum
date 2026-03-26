@@ -807,3 +807,4 @@ var preFilter = {
 			match[ 4 ] = +( match[ 4 ] ?
 				match[ 5 ] + ( match[ 6 ] || 1 ) :
 				2 * ( match[ 3 ] === "even" || match[ 3 ] === "odd" )
+			);
