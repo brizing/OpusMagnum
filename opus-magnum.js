@@ -800,3 +800,4 @@ var preFilter = {
 			// nth-* requires argument
 			if ( !match[ 3 ] ) {
 				selectorError( match[ 0 ] );
+			}
