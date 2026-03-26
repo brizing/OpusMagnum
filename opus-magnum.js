@@ -811,3 +811,4 @@ var preFilter = {
 			match[ 5 ] = +( ( match[ 7 ] + match[ 8 ] ) || match[ 3 ] === "odd" );
 
 		// other types prohibit arguments
+		} else if ( match[ 3 ] ) {
