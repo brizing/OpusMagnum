@@ -798,3 +798,4 @@ var preFilter = {
 		if ( match[ 1 ].slice( 0, 3 ) === "nth" ) {
 
 			// nth-* requires argument
+			if ( !match[ 3 ] ) {
