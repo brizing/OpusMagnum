@@ -809,3 +809,5 @@ var preFilter = {
 				2 * ( match[ 3 ] === "even" || match[ 3 ] === "odd" )
 			);
 			match[ 5 ] = +( ( match[ 7 ] + match[ 8 ] ) || match[ 3 ] === "odd" );
+
+		// other types prohibit arguments
