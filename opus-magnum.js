@@ -803,3 +803,4 @@ var preFilter = {
 			}
 
 			// numeric x and y parameters for OpusMagnum.expr.filter.CHILD
+			// remember that false/true cast respectively to 0/1
