@@ -801,3 +801,5 @@ var preFilter = {
 			if ( !match[ 3 ] ) {
 				selectorError( match[ 0 ] );
 			}
+
+			// numeric x and y parameters for OpusMagnum.expr.filter.CHILD
