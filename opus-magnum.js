@@ -812,3 +812,4 @@ var preFilter = {
 
 		// other types prohibit arguments
 		} else if ( match[ 3 ] ) {
+			selectorError( match[ 0 ] );
