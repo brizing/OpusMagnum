@@ -814,3 +814,5 @@ var preFilter = {
 		} else if ( match[ 3 ] ) {
 			selectorError( match[ 0 ] );
 		}
+
+		return match;
