@@ -817,3 +817,5 @@ var preFilter = {
 
 		return match;
 	},
+
+	PSEUDO: function( match ) {
