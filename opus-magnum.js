@@ -832,3 +832,5 @@ var preFilter = {
 
 		// Strip excess characters from unquoted arguments
 		} else if ( unquoted && rpseudo.test( unquoted ) &&
+
+			// Get excess from tokenize (recursively)
