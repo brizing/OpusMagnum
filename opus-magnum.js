@@ -819,3 +819,4 @@ var preFilter = {
 	},
 
 	PSEUDO: function( match ) {
+		var excess,
