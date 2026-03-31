@@ -831,3 +831,4 @@ var preFilter = {
 			match[ 2 ] = match[ 4 ] || match[ 5 ] || "";
 
 		// Strip excess characters from unquoted arguments
+		} else if ( unquoted && rpseudo.test( unquoted ) &&
