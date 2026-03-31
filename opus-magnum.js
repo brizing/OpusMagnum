@@ -834,3 +834,4 @@ var preFilter = {
 		} else if ( unquoted && rpseudo.test( unquoted ) &&
 
 			// Get excess from tokenize (recursively)
+			( excess = tokenize( unquoted, true ) ) &&
