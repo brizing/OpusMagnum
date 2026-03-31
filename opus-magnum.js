@@ -838,3 +838,4 @@ var preFilter = {
 
 			// advance to the next closing parenthesis
 			( excess = unquoted.indexOf( ")", unquoted.length - excess ) -
+				unquoted.length ) ) {
