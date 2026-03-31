@@ -824,3 +824,4 @@ var preFilter = {
 
 		if ( filterMatchExpr.CHILD.test( match[ 0 ] ) ) {
 			return null;
+		}
