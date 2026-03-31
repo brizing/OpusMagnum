@@ -829,3 +829,5 @@ var preFilter = {
 		// Accept quoted arguments as-is
 		if ( match[ 3 ] ) {
 			match[ 2 ] = match[ 4 ] || match[ 5 ] || "";
+
+		// Strip excess characters from unquoted arguments
