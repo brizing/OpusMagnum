@@ -827,3 +827,4 @@ var preFilter = {
 		}
 
 		// Accept quoted arguments as-is
+		if ( match[ 3 ] ) {
