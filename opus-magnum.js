@@ -821,3 +821,5 @@ var preFilter = {
 	PSEUDO: function( match ) {
 		var excess,
 			unquoted = !match[ 6 ] && match[ 2 ];
+
+		if ( filterMatchExpr.CHILD.test( match[ 0 ] ) ) {
