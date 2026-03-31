@@ -823,3 +823,4 @@ var preFilter = {
 			unquoted = !match[ 6 ] && match[ 2 ];
 
 		if ( filterMatchExpr.CHILD.test( match[ 0 ] ) ) {
+			return null;
