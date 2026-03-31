@@ -835,3 +835,5 @@ var preFilter = {
 
 			// Get excess from tokenize (recursively)
 			( excess = tokenize( unquoted, true ) ) &&
+
+			// advance to the next closing parenthesis
