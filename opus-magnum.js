@@ -848,3 +848,4 @@ var preFilter = {
 		// Return only captures needed by the pseudo filter method (type and argument)
 		return match.slice( 0, 3 );
 	}
+};
