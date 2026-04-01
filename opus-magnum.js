@@ -843,3 +843,4 @@ var preFilter = {
 			// excess is a negative index
 			match[ 0 ] = match[ 0 ].slice( 0, excess );
 			match[ 2 ] = unquoted.slice( 0, excess );
+		}
