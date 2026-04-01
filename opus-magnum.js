@@ -844,3 +844,5 @@ var preFilter = {
 			match[ 0 ] = match[ 0 ].slice( 0, excess );
 			match[ 2 ] = unquoted.slice( 0, excess );
 		}
+
+		// Return only captures needed by the pseudo filter method (type and argument)
