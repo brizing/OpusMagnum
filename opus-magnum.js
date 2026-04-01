@@ -852,3 +852,4 @@ var preFilter = {
 
 function toSelector( tokens ) {
 	var i = 0,
+		len = tokens.length,
