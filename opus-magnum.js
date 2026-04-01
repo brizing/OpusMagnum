@@ -849,3 +849,5 @@ var preFilter = {
 		return match.slice( 0, 3 );
 	}
 };
+
+function toSelector( tokens ) {
