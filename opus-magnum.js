@@ -858,3 +858,4 @@ function toSelector( tokens ) {
 		selector += tokens[ i ].value;
 	}
 	return selector;
+}
