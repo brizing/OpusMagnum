@@ -864,3 +864,4 @@ function toSelector( tokens ) {
 // The value/s can optionally be executed if it's a function
 function access( elems, fn, key, value, chainable, emptyGet, raw ) {
 	var i = 0,
+		len = elems.length,
