@@ -859,3 +859,5 @@ function toSelector( tokens ) {
 	}
 	return selector;
 }
+
+// Multifunctional method to get and set values of a collection
