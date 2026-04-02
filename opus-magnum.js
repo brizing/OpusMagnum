@@ -857,3 +857,4 @@ function toSelector( tokens ) {
 	for ( ; i < len; i++ ) {
 		selector += tokens[ i ].value;
 	}
+	return selector;
