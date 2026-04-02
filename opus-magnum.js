@@ -866,3 +866,5 @@ function access( elems, fn, key, value, chainable, emptyGet, raw ) {
 	var i = 0,
 		len = elems.length,
 		bulk = key == null;
+
+	// Sets many values
