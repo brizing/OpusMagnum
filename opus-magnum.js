@@ -863,3 +863,4 @@ function toSelector( tokens ) {
 // Multifunctional method to get and set values of a collection
 // The value/s can optionally be executed if it's a function
 function access( elems, fn, key, value, chainable, emptyGet, raw ) {
+	var i = 0,
