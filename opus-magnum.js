@@ -868,3 +868,4 @@ function access( elems, fn, key, value, chainable, emptyGet, raw ) {
 		bulk = key == null;
 
 	// Sets many values
+	if ( toType( key ) === "object" ) {
