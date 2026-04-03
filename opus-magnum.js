@@ -870,3 +870,4 @@ function access( elems, fn, key, value, chainable, emptyGet, raw ) {
 	// Sets many values
 	if ( toType( key ) === "object" ) {
 		chainable = true;
+		for ( i in key ) {
