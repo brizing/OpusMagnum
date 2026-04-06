@@ -876,3 +876,4 @@ function access( elems, fn, key, value, chainable, emptyGet, raw ) {
 
 	// Sets one value
 	} else if ( value !== undefined ) {
+		chainable = true;
