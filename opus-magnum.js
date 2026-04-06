@@ -872,3 +872,4 @@ function access( elems, fn, key, value, chainable, emptyGet, raw ) {
 		chainable = true;
 		for ( i in key ) {
 			access( elems, fn, i, key[ i ], true, emptyGet, raw );
+		}
