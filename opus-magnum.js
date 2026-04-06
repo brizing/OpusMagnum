@@ -871,3 +871,4 @@ function access( elems, fn, key, value, chainable, emptyGet, raw ) {
 	if ( toType( key ) === "object" ) {
 		chainable = true;
 		for ( i in key ) {
+			access( elems, fn, i, key[ i ], true, emptyGet, raw );
