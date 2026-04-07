@@ -885,3 +885,4 @@ function access( elems, fn, key, value, chainable, emptyGet, raw ) {
 		if ( bulk ) {
 
 			// Bulk operations run against the entire set
+			if ( raw ) {
