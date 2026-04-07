@@ -887,3 +887,4 @@ function access( elems, fn, key, value, chainable, emptyGet, raw ) {
 			// Bulk operations run against the entire set
 			if ( raw ) {
 				fn.call( elems, value );
+				fn = null;
