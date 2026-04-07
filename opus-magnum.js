@@ -892,3 +892,4 @@ function access( elems, fn, key, value, chainable, emptyGet, raw ) {
 			// ...except when executing function values
 			} else {
 				bulk = fn;
+				fn = function( elem, _key, value ) {
