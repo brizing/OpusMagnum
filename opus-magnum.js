@@ -890,3 +890,4 @@ function access( elems, fn, key, value, chainable, emptyGet, raw ) {
 				fn = null;
 
 			// ...except when executing function values
+			} else {
