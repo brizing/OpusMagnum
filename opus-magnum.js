@@ -879,3 +879,4 @@ function access( elems, fn, key, value, chainable, emptyGet, raw ) {
 		chainable = true;
 
 		if ( typeof value !== "function" ) {
+			raw = true;
