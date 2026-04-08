@@ -912,3 +912,5 @@ function access( elems, fn, key, value, chainable, emptyGet, raw ) {
 	if ( chainable ) {
 		return elems;
 	}
+
+	// Gets
