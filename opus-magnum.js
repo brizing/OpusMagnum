@@ -896,3 +896,4 @@ function access( elems, fn, key, value, chainable, emptyGet, raw ) {
 					return bulk.call( OpusMagnum( elem ), value );
 				};
 			}
+		}
