@@ -901,3 +901,4 @@ function access( elems, fn, key, value, chainable, emptyGet, raw ) {
 		if ( fn ) {
 			for ( ; i < len; i++ ) {
 				fn(
+					elems[ i ], key, raw ?
