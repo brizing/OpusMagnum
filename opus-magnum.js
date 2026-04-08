@@ -903,3 +903,4 @@ function access( elems, fn, key, value, chainable, emptyGet, raw ) {
 				fn(
 					elems[ i ], key, raw ?
 						value :
+						value.call( elems[ i ], i, fn( elems[ i ], key ) )
