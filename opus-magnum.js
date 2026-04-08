@@ -897,3 +897,5 @@ function access( elems, fn, key, value, chainable, emptyGet, raw ) {
 				};
 			}
 		}
+
+		if ( fn ) {
