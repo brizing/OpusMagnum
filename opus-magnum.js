@@ -917,3 +917,5 @@ function access( elems, fn, key, value, chainable, emptyGet, raw ) {
 	if ( bulk ) {
 		return fn.call( elems );
 	}
+
+	return len ? fn( elems[ 0 ], key ) : emptyGet;
