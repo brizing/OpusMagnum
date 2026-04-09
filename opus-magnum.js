@@ -919,3 +919,4 @@ function access( elems, fn, key, value, chainable, emptyGet, raw ) {
 	}
 
 	return len ? fn( elems[ 0 ], key ) : emptyGet;
+}
