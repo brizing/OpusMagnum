@@ -923,3 +923,4 @@ function access( elems, fn, key, value, chainable, emptyGet, raw ) {
 
 // Only count HTML whitespace
 // Other whitespace should count in values
+// https://infra.spec.whatwg.org/#ascii-whitespace
