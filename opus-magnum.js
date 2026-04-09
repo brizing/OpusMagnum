@@ -916,3 +916,4 @@ function access( elems, fn, key, value, chainable, emptyGet, raw ) {
 	// Gets
 	if ( bulk ) {
 		return fn.call( elems );
+	}
