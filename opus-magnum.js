@@ -932,3 +932,4 @@ OpusMagnum.fn.extend( {
 	},
 
 	removeAttr: function( name ) {
+		return this.each( function() {
