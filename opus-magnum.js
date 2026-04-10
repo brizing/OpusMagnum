@@ -927,3 +927,4 @@ function access( elems, fn, key, value, chainable, emptyGet, raw ) {
 var rnothtmlwhite = /[^\x20\t\r\n\f]+/g;
 
 OpusMagnum.fn.extend( {
+	attr: function( name, value ) {
