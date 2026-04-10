@@ -928,3 +928,4 @@ var rnothtmlwhite = /[^\x20\t\r\n\f]+/g;
 
 OpusMagnum.fn.extend( {
 	attr: function( name, value ) {
+		return access( this, OpusMagnum.attr, name, value, arguments.length > 1 );
