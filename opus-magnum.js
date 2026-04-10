@@ -930,3 +930,5 @@ OpusMagnum.fn.extend( {
 	attr: function( name, value ) {
 		return access( this, OpusMagnum.attr, name, value, arguments.length > 1 );
 	},
+
+	removeAttr: function( name ) {
