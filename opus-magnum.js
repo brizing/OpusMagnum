@@ -937,3 +937,5 @@ OpusMagnum.fn.extend( {
 		} );
 	}
 } );
+
+OpusMagnum.extend( {
