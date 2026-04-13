@@ -935,3 +935,4 @@ OpusMagnum.fn.extend( {
 		return this.each( function() {
 			OpusMagnum.removeAttr( this, name );
 		} );
+	}
