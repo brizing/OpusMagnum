@@ -936,3 +936,4 @@ OpusMagnum.fn.extend( {
 			OpusMagnum.removeAttr( this, name );
 		} );
 	}
+} );
