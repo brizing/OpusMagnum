@@ -942,3 +942,5 @@ OpusMagnum.extend( {
 	attr: function( elem, name, value ) {
 		var ret, hooks,
 			nType = elem.nodeType;
+
+		// Don't get/set attributes on text, comment and attribute nodes
