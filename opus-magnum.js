@@ -947,3 +947,5 @@ OpusMagnum.extend( {
 		if ( nType === 3 || nType === 8 || nType === 2 ) {
 			return;
 		}
+
+		// Fallback to prop when attributes are not supported
