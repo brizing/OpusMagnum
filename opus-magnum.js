@@ -939,3 +939,4 @@ OpusMagnum.fn.extend( {
 } );
 
 OpusMagnum.extend( {
+	attr: function( elem, name, value ) {
