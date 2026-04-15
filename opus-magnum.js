@@ -967,3 +967,4 @@ OpusMagnum.extend( {
 
 			if ( hooks && "set" in hooks &&
 				( ret = hooks.set( elem, value, name ) ) !== undefined ) {
+				return ret;
