@@ -955,3 +955,4 @@ OpusMagnum.extend( {
 
 		// Attribute hooks are determined by the lowercase version
 		// Grab necessary hook if one is defined
+		if ( nType !== 1 || !OpusMagnum.isXMLDoc( elem ) ) {
