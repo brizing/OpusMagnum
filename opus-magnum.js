@@ -977,3 +977,5 @@ OpusMagnum.extend( {
 		if ( hooks && "get" in hooks && ( ret = hooks.get( elem, name ) ) !== null ) {
 			return ret;
 		}
+
+		ret = elem.getAttribute( name );
