@@ -979,3 +979,5 @@ OpusMagnum.extend( {
 		}
 
 		ret = elem.getAttribute( name );
+
+		// Non-existent attributes return null, we normalize to undefined
