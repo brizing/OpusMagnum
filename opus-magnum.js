@@ -960,3 +960,4 @@ OpusMagnum.extend( {
 		}
 
 		if ( value !== undefined ) {
+			if ( value === null ) {
