@@ -957,3 +957,4 @@ OpusMagnum.extend( {
 		// Grab necessary hook if one is defined
 		if ( nType !== 1 || !OpusMagnum.isXMLDoc( elem ) ) {
 			hooks = OpusMagnum.attrHooks[ name.toLowerCase() ];
+		}
