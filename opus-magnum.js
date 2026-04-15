@@ -972,3 +972,4 @@ OpusMagnum.extend( {
 
 			elem.setAttribute( name, value );
 			return value;
+		}
