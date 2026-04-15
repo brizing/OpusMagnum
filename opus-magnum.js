@@ -973,3 +973,5 @@ OpusMagnum.extend( {
 			elem.setAttribute( name, value );
 			return value;
 		}
+
+		if ( hooks && "get" in hooks && ( ret = hooks.get( elem, name ) ) !== null ) {
