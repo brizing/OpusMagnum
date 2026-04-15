@@ -982,3 +982,4 @@ OpusMagnum.extend( {
 
 		// Non-existent attributes return null, we normalize to undefined
 		return ret == null ? undefined : ret;
+	},
