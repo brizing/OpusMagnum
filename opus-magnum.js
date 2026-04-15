@@ -951,3 +951,4 @@ OpusMagnum.extend( {
 		// Fallback to prop when attributes are not supported
 		if ( typeof elem.getAttribute === "undefined" ) {
 			return OpusMagnum.prop( elem, name, value );
+		}
