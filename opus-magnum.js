@@ -963,3 +963,4 @@ OpusMagnum.extend( {
 			if ( value === null ) {
 				OpusMagnum.removeAttr( elem, name );
 				return;
+			}
