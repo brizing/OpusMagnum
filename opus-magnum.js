@@ -985,3 +985,5 @@ OpusMagnum.extend( {
 	},
 
 	attrHooks: {},
+
+	removeAttr: function( elem, value ) {
