@@ -952,3 +952,5 @@ OpusMagnum.extend( {
 		if ( typeof elem.getAttribute === "undefined" ) {
 			return OpusMagnum.prop( elem, name, value );
 		}
+
+		// Attribute hooks are determined by the lowercase version
