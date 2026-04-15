@@ -954,3 +954,4 @@ OpusMagnum.extend( {
 		}
 
 		// Attribute hooks are determined by the lowercase version
+		// Grab necessary hook if one is defined
