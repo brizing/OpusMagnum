@@ -964,3 +964,5 @@ OpusMagnum.extend( {
 				OpusMagnum.removeAttr( elem, name );
 				return;
 			}
+
+			if ( hooks && "set" in hooks &&
