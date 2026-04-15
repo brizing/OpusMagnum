@@ -958,3 +958,5 @@ OpusMagnum.extend( {
 		if ( nType !== 1 || !OpusMagnum.isXMLDoc( elem ) ) {
 			hooks = OpusMagnum.attrHooks[ name.toLowerCase() ];
 		}
+
+		if ( value !== undefined ) {
