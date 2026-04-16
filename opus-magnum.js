@@ -991,3 +991,4 @@ OpusMagnum.extend( {
 			i = 0,
 
 			// Attribute names can contain non-HTML whitespace characters
+			// https://html.spec.whatwg.org/multipage/syntax.html#attributes-2
