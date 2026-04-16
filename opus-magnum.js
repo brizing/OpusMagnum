@@ -1001,3 +1001,5 @@ OpusMagnum.extend( {
 		}
 	}
 } );
+
+// Support: IE <=11+
