@@ -989,3 +989,5 @@ OpusMagnum.extend( {
 	removeAttr: function( elem, value ) {
 		var name,
 			i = 0,
+
+			// Attribute names can contain non-HTML whitespace characters
