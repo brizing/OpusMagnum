@@ -988,3 +988,4 @@ OpusMagnum.extend( {
 
 	removeAttr: function( elem, value ) {
 		var name,
+			i = 0,
