@@ -996,3 +996,4 @@ OpusMagnum.extend( {
 
 		if ( attrNames && elem.nodeType === 1 ) {
 			while ( ( name = attrNames[ i++ ] ) ) {
+				elem.removeAttribute( name );
