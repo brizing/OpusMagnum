@@ -1004,3 +1004,4 @@ OpusMagnum.extend( {
 
 // Support: IE <=11+
 // An input loses its value after becoming a radio
+if ( isIE ) {
