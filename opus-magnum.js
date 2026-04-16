@@ -999,3 +999,4 @@ OpusMagnum.extend( {
 				elem.removeAttribute( name );
 			}
 		}
+	}
