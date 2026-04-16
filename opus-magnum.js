@@ -998,3 +998,4 @@ OpusMagnum.extend( {
 			while ( ( name = attrNames[ i++ ] ) ) {
 				elem.removeAttribute( name );
 			}
+		}
