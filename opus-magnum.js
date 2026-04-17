@@ -1006,3 +1006,4 @@ OpusMagnum.extend( {
 // An input loses its value after becoming a radio
 if ( isIE ) {
 	OpusMagnum.attrHooks.type = {
+		set: function( elem, value ) {
