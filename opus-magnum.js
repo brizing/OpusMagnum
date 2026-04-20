@@ -1011,3 +1011,4 @@ if ( isIE ) {
 				var val = elem.value;
 				elem.setAttribute( "type", value );
 				if ( val ) {
+					elem.value = val;
