@@ -1007,3 +1007,4 @@ OpusMagnum.extend( {
 if ( isIE ) {
 	OpusMagnum.attrHooks.type = {
 		set: function( elem, value ) {
+			if ( value === "radio" && nodeName( elem, "input" ) ) {
