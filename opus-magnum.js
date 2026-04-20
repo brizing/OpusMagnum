@@ -1010,3 +1010,4 @@ if ( isIE ) {
 			if ( value === "radio" && nodeName( elem, "input" ) ) {
 				var val = elem.value;
 				elem.setAttribute( "type", value );
+				if ( val ) {
