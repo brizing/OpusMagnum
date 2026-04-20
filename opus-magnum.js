@@ -1012,3 +1012,4 @@ if ( isIE ) {
 				elem.setAttribute( "type", value );
 				if ( val ) {
 					elem.value = val;
+				}
