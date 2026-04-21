@@ -1018,3 +1018,5 @@ if ( isIE ) {
 		}
 	};
 }
+
+// HTML boolean attributes have special behavior:
