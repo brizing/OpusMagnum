@@ -1015,3 +1015,4 @@ if ( isIE ) {
 				}
 				return value;
 			}
+		}
