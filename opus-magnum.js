@@ -1030,3 +1030,4 @@ OpusMagnum.each( (
 ).split( " " ), function( _i, name ) {
 	OpusMagnum.attrHooks[ name ] = {
 		get: function( elem ) {
+			return elem.getAttribute( name ) != null ?
