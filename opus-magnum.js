@@ -1023,3 +1023,4 @@ if ( isIE ) {
 // we consider the lowercase name to be the only valid value, so
 // getting (if the attribute is present) normalizes to that, as does
 // setting to any non-`false` value (and setting to `false` removes the attribute).
+// See https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#boolean-attributes
