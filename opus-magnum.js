@@ -1021,3 +1021,4 @@ if ( isIE ) {
 
 // HTML boolean attributes have special behavior:
 // we consider the lowercase name to be the only valid value, so
+// getting (if the attribute is present) normalizes to that, as does
