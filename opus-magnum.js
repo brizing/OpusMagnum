@@ -1026,3 +1026,4 @@ if ( isIE ) {
 // See https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#boolean-attributes
 OpusMagnum.each( (
 	"checked selected async autofocus autoplay controls defer disabled " +
+	"hidden ismap loop multiple open readonly required scoped"
