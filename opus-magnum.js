@@ -1013,3 +1013,4 @@ if ( isIE ) {
 				if ( val ) {
 					elem.value = val;
 				}
+				return value;
