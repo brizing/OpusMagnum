@@ -1036,3 +1036,4 @@ OpusMagnum.each( (
 		},
 
 		set: function( elem, value, name ) {
+			if ( value === false ) {
