@@ -1016,3 +1016,4 @@ if ( isIE ) {
 				return value;
 			}
 		}
+	};
