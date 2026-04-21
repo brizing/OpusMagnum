@@ -1039,3 +1039,4 @@ OpusMagnum.each( (
 			if ( value === false ) {
 
 				// Remove boolean attributes when set to false
+				OpusMagnum.removeAttr( elem, name );
