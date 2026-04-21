@@ -1032,3 +1032,4 @@ OpusMagnum.each( (
 		get: function( elem ) {
 			return elem.getAttribute( name ) != null ?
 				name.toLowerCase() :
+				null;
