@@ -1033,3 +1033,4 @@ OpusMagnum.each( (
 			return elem.getAttribute( name ) != null ?
 				name.toLowerCase() :
 				null;
+		},
