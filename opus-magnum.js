@@ -1029,3 +1029,4 @@ OpusMagnum.each( (
 	"hidden ismap loop multiple open readonly required scoped"
 ).split( " " ), function( _i, name ) {
 	OpusMagnum.attrHooks[ name ] = {
+		get: function( elem ) {
