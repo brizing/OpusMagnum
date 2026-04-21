@@ -1042,3 +1042,4 @@ OpusMagnum.each( (
 				OpusMagnum.removeAttr( elem, name );
 			} else {
 				elem.setAttribute( name, name );
+			}
