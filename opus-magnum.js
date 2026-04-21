@@ -1034,3 +1034,5 @@ OpusMagnum.each( (
 				name.toLowerCase() :
 				null;
 		},
+
+		set: function( elem, value, name ) {
