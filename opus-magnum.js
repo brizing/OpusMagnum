@@ -1025,3 +1025,4 @@ if ( isIE ) {
 // setting to any non-`false` value (and setting to `false` removes the attribute).
 // See https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#boolean-attributes
 OpusMagnum.each( (
+	"checked selected async autofocus autoplay controls defer disabled " +
