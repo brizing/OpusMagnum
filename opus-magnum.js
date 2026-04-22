@@ -1043,3 +1043,4 @@ OpusMagnum.each( (
 			} else {
 				elem.setAttribute( name, name );
 			}
+			return name;
