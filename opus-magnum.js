@@ -1046,3 +1046,4 @@ OpusMagnum.each( (
 			return name;
 		}
 	};
+} );
