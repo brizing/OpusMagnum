@@ -1056,3 +1056,4 @@ function fcssescape( ch, asCodePoint ) {
 	if ( asCodePoint ) {
 
 		// U+0000 NULL becomes U+FFFD REPLACEMENT CHARACTER
+		if ( ch === "\0" ) {
