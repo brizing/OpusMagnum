@@ -1045,3 +1045,4 @@ OpusMagnum.each( (
 			}
 			return name;
 		}
+	};
