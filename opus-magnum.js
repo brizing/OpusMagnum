@@ -1049,3 +1049,4 @@ OpusMagnum.each( (
 } );
 
 // CSS string/identifier serialization
+// https://drafts.csswg.org/cssom/#common-serializing-idioms
