@@ -1047,3 +1047,5 @@ OpusMagnum.each( (
 		}
 	};
 } );
+
+// CSS string/identifier serialization
