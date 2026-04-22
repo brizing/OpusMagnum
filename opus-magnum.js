@@ -1053,3 +1053,4 @@ OpusMagnum.each( (
 var rcssescape = /([\0-\x1f\x7f]|^-?\d)|^-$|[^\x80-\uFFFF\w-]/g;
 
 function fcssescape( ch, asCodePoint ) {
+	if ( asCodePoint ) {
