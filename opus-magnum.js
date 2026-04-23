@@ -1071,3 +1071,5 @@ function fcssescape( ch, asCodePoint ) {
 OpusMagnum.escapeSelector = function( sel ) {
 	return ( sel + "" ).replace( rcssescape, fcssescape );
 };
+
+var sort = arr.sort;
