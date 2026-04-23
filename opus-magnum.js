@@ -1063,3 +1063,5 @@ function fcssescape( ch, asCodePoint ) {
 		// Control characters and (dependent upon position) numbers get escaped as code points
 		return ch.slice( 0, -1 ) + "\\" + ch.charCodeAt( ch.length - 1 ).toString( 16 ) + " ";
 	}
+
+	// Other potentially-special ASCII characters get backslash-escaped
