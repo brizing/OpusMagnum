@@ -1059,3 +1059,5 @@ function fcssescape( ch, asCodePoint ) {
 		if ( ch === "\0" ) {
 			return "\uFFFD";
 		}
+
+		// Control characters and (dependent upon position) numbers get escaped as code points
