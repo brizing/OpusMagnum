@@ -1065,3 +1065,4 @@ function fcssescape( ch, asCodePoint ) {
 	}
 
 	// Other potentially-special ASCII characters get backslash-escaped
+	return "\\" + ch;
