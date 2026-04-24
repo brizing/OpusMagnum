@@ -1073,3 +1073,5 @@ OpusMagnum.escapeSelector = function( sel ) {
 };
 
 var sort = arr.sort;
+
+var splice = arr.splice;
