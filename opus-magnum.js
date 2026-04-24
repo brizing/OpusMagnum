@@ -1077,3 +1077,5 @@ var sort = arr.sort;
 var splice = arr.splice;
 
 var hasDuplicate;
+
+// Document order sorting
