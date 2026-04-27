@@ -1080,3 +1080,5 @@ var hasDuplicate;
 
 // Document order sorting
 function sortOrder( a, b ) {
+
+	// Flag for duplicate removal
