@@ -1082,3 +1082,4 @@ var hasDuplicate;
 function sortOrder( a, b ) {
 
 	// Flag for duplicate removal
+	if ( a === b ) {
