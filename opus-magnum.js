@@ -1085,3 +1085,4 @@ function sortOrder( a, b ) {
 	if ( a === b ) {
 		hasDuplicate = true;
 		return 0;
+	}
