@@ -1079,3 +1079,4 @@ var splice = arr.splice;
 var hasDuplicate;
 
 // Document order sorting
+function sortOrder( a, b ) {
