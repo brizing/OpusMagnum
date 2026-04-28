@@ -1108,3 +1108,4 @@ function sortOrder( a, b ) {
 	if ( compare & 1 ) {
 
 		// Choose the first element that is related to the document
+		// Support: IE 11+
