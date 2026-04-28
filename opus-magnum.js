@@ -1105,3 +1105,4 @@ function sortOrder( a, b ) {
 		1;
 
 	// Disconnected nodes
+	if ( compare & 1 ) {
