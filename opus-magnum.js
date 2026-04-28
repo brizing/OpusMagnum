@@ -1091,3 +1091,4 @@ function sortOrder( a, b ) {
 	var compare = !a.compareDocumentPosition - !b.compareDocumentPosition;
 	if ( compare ) {
 		return compare;
+	}
