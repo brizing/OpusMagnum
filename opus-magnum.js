@@ -1086,3 +1086,5 @@ function sortOrder( a, b ) {
 		hasDuplicate = true;
 		return 0;
 	}
+
+	// Sort on method existence if only one input has compareDocumentPosition
