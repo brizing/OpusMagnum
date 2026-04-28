@@ -1100,3 +1100,5 @@ function sortOrder( a, b ) {
 	// eslint-disable-next-line eqeqeq
 	compare = ( a.ownerDocument || a ) == ( b.ownerDocument || b ) ?
 		a.compareDocumentPosition( b ) :
+
+		// Otherwise we know they are disconnected
