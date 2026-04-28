@@ -1103,3 +1103,5 @@ function sortOrder( a, b ) {
 
 		// Otherwise we know they are disconnected
 		1;
+
+	// Disconnected nodes
