@@ -1094,3 +1094,4 @@ function sortOrder( a, b ) {
 	}
 
 	// Calculate position if both inputs belong to the same document
+	// Support: IE 11+
