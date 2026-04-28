@@ -1090,3 +1090,4 @@ function sortOrder( a, b ) {
 	// Sort on method existence if only one input has compareDocumentPosition
 	var compare = !a.compareDocumentPosition - !b.compareDocumentPosition;
 	if ( compare ) {
+		return compare;
