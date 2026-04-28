@@ -1095,3 +1095,4 @@ function sortOrder( a, b ) {
 
 	// Calculate position if both inputs belong to the same document
 	// Support: IE 11+
+	// IE sometimes throws a "Permission denied" error when strict-comparing
