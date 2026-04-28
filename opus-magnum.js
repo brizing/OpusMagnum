@@ -1109,3 +1109,4 @@ function sortOrder( a, b ) {
 
 		// Choose the first element that is related to the document
 		// Support: IE 11+
+		// IE sometimes throws a "Permission denied" error when strict-comparing
