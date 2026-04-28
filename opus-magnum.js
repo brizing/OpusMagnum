@@ -1106,3 +1106,5 @@ function sortOrder( a, b ) {
 
 	// Disconnected nodes
 	if ( compare & 1 ) {
+
+		// Choose the first element that is related to the document
