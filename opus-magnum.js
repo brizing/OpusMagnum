@@ -1099,3 +1099,4 @@ function sortOrder( a, b ) {
 	// two documents; shallow comparisons work.
 	// eslint-disable-next-line eqeqeq
 	compare = ( a.ownerDocument || a ) == ( b.ownerDocument || b ) ?
+		a.compareDocumentPosition( b ) :
