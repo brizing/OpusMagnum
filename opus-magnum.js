@@ -1102,3 +1102,4 @@ function sortOrder( a, b ) {
 		a.compareDocumentPosition( b ) :
 
 		// Otherwise we know they are disconnected
+		1;
