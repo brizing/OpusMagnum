@@ -1092,3 +1092,5 @@ function sortOrder( a, b ) {
 	if ( compare ) {
 		return compare;
 	}
+
+	// Calculate position if both inputs belong to the same document
