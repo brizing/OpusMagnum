@@ -1116,3 +1116,5 @@ function sortOrder( a, b ) {
 			OpusMagnum.contains( document, a ) ) {
 			return -1;
 		}
+
+		// Support: IE 11+
