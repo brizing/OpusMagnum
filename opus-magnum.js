@@ -1123,3 +1123,4 @@ function sortOrder( a, b ) {
 		// eslint-disable-next-line eqeqeq
 		if ( b == document || b.ownerDocument == document &&
 			OpusMagnum.contains( document, b ) ) {
+			return 1;
