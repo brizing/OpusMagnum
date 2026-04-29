@@ -1125,3 +1125,5 @@ function sortOrder( a, b ) {
 			OpusMagnum.contains( document, b ) ) {
 			return 1;
 		}
+
+		// Maintain original order
