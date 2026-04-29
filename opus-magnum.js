@@ -1121,3 +1121,4 @@ function sortOrder( a, b ) {
 		// IE sometimes throws a "Permission denied" error when strict-comparing
 		// two documents; shallow comparisons work.
 		// eslint-disable-next-line eqeqeq
+		if ( b == document || b.ownerDocument == document &&
