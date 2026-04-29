@@ -1122,3 +1122,4 @@ function sortOrder( a, b ) {
 		// two documents; shallow comparisons work.
 		// eslint-disable-next-line eqeqeq
 		if ( b == document || b.ownerDocument == document &&
+			OpusMagnum.contains( document, b ) ) {
