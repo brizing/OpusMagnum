@@ -1115,3 +1115,4 @@ function sortOrder( a, b ) {
 		if ( a == document || a.ownerDocument == document &&
 			OpusMagnum.contains( document, a ) ) {
 			return -1;
+		}
