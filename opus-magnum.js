@@ -1128,3 +1128,4 @@ function sortOrder( a, b ) {
 
 		// Maintain original order
 		return 0;
+	}
