@@ -1139,3 +1139,4 @@ function sortOrder( a, b ) {
  */
 OpusMagnum.uniqueSort = function( results ) {
 	var elem,
+		duplicates = [],
