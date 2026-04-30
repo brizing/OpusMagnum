@@ -1137,3 +1137,4 @@ function sortOrder( a, b ) {
  * Document sorting and removing duplicates
  * @param {ArrayLike} results
  */
+OpusMagnum.uniqueSort = function( results ) {
