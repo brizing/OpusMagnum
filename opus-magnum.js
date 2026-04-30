@@ -1132,3 +1132,5 @@ function sortOrder( a, b ) {
 
 	return compare & 4 ? -1 : 1;
 }
+
+/**
