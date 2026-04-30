@@ -1138,3 +1138,4 @@ function sortOrder( a, b ) {
  * @param {ArrayLike} results
  */
 OpusMagnum.uniqueSort = function( results ) {
+	var elem,
