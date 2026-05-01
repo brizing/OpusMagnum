@@ -1144,3 +1144,5 @@ OpusMagnum.uniqueSort = function( results ) {
 		i = 0;
 
 	hasDuplicate = false;
+
+	sort.call( results, sortOrder );
