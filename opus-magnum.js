@@ -1159,3 +1159,4 @@ OpusMagnum.uniqueSort = function( results ) {
 	}
 
 	return results;
+};
