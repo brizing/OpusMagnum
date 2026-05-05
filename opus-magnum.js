@@ -1164,3 +1164,5 @@ OpusMagnum.uniqueSort = function( results ) {
 OpusMagnum.fn.uniqueSort = function() {
 	return this.pushStack( OpusMagnum.uniqueSort( slice.apply( this ) ) );
 };
+
+var i,
