@@ -1156,3 +1156,4 @@ OpusMagnum.uniqueSort = function( results ) {
 		while ( j-- ) {
 			splice.call( results, duplicates[ j ], 1 );
 		}
+	}
