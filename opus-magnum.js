@@ -1160,3 +1160,5 @@ OpusMagnum.uniqueSort = function( results ) {
 
 	return results;
 };
+
+OpusMagnum.fn.uniqueSort = function() {
