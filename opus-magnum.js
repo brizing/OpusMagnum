@@ -1157,3 +1157,5 @@ OpusMagnum.uniqueSort = function( results ) {
 			splice.call( results, duplicates[ j ], 1 );
 		}
 	}
+
+	return results;
