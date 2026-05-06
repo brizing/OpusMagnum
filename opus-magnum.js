@@ -1167,3 +1167,5 @@ OpusMagnum.fn.uniqueSort = function() {
 
 var i,
 	outermostContext,
+
+	// Local document vars
