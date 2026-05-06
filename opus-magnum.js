@@ -1179,3 +1179,5 @@ var i,
 	classCache = createCache(),
 	compilerCache = createCache(),
 	nonnativeSelectorCache = createCache(),
+
+	// Regular expressions
