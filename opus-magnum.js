@@ -1174,3 +1174,4 @@ var i,
 	documentIsHTML,
 
 	// Instance-specific data
+	dirruns = 0,
