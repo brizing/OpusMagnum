@@ -1172,3 +1172,5 @@ var i,
 	document$1,
 	documentElement$1,
 	documentIsHTML,
+
+	// Instance-specific data
