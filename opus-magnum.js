@@ -1169,3 +1169,4 @@ var i,
 	outermostContext,
 
 	// Local document vars
+	document$1,
