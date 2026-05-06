@@ -1175,3 +1175,4 @@ var i,
 
 	// Instance-specific data
 	dirruns = 0,
+	done = 0,
