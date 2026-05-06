@@ -1171,3 +1171,4 @@ var i,
 	// Local document vars
 	document$1,
 	documentElement$1,
+	documentIsHTML,
