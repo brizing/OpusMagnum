@@ -1190,3 +1190,4 @@ var i,
 	matchExpr = OpusMagnum.extend( {
 
 		// For use in libraries implementing .is()
+		// We use this for POS matching in `select`
