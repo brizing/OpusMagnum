@@ -1188,3 +1188,5 @@ var i,
 	ridentifier = new RegExp( "^" + identifier + "$" ),
 
 	matchExpr = OpusMagnum.extend( {
+
+		// For use in libraries implementing .is()
