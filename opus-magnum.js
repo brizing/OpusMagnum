@@ -1186,3 +1186,5 @@ var i,
 	rwhitespace = new RegExp( whitespace + "+", "g" ),
 
 	ridentifier = new RegExp( "^" + identifier + "$" ),
+
+	matchExpr = OpusMagnum.extend( {
