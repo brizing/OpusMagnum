@@ -1183,3 +1183,4 @@ var i,
 	// Regular expressions
 
 	// Leading and non-escaped trailing whitespace, capturing some non-whitespace characters preceding the latter
+	rwhitespace = new RegExp( whitespace + "+", "g" ),
