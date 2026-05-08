@@ -1195,3 +1195,5 @@ var i,
 			"*[>+~]|:(even|odd|eq|gt|lt|nth|first|last)(?:\\(" + whitespace +
 			"*((?:-\\d)?\\d*)" + whitespace + "*\\)|)(?=[^-]|$)", "i" )
 	}, filterMatchExpr ),
+
+	rinputs = /^(?:input|select|textarea|button)$/i,
