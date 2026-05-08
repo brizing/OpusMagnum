@@ -1198,3 +1198,5 @@ var i,
 
 	rinputs = /^(?:input|select|textarea|button)$/i,
 	rheader = /^h\d$/i,
+
+	// Easily-parseable/retrievable ID or TAG or CLASS selectors
