@@ -1201,3 +1201,5 @@ var i,
 
 	// Easily-parseable/retrievable ID or TAG or CLASS selectors
 	rquickExpr = /^(?:#([\w-]+)|(\w+)|\.([\w-]+))$/,
+
+	// Used for iframes; see `setDocument`.
