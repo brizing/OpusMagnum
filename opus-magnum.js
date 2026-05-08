@@ -1197,3 +1197,4 @@ var i,
 	}, filterMatchExpr ),
 
 	rinputs = /^(?:input|select|textarea|button)$/i,
+	rheader = /^h\d$/i,
