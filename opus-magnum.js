@@ -1203,3 +1203,4 @@ var i,
 	rquickExpr = /^(?:#([\w-]+)|(\w+)|\.([\w-]+))$/,
 
 	// Used for iframes; see `setDocument`.
+	// Support: IE 9 - 11+
