@@ -1212,3 +1212,4 @@ var i,
 
 	inDisabledFieldset = addCombinator(
 		function( elem ) {
+			return elem.disabled === true && nodeName( elem, "fieldset" );
