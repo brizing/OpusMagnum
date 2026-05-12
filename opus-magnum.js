@@ -1205,3 +1205,4 @@ var i,
 	// Used for iframes; see `setDocument`.
 	// Support: IE 9 - 11+
 	// Removing the function wrapper causes a "Permission Denied"
+	// error in IE.
