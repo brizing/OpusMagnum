@@ -1215,3 +1215,4 @@ var i,
 			return elem.disabled === true && nodeName( elem, "fieldset" );
 		},
 		{ dir: "parentNode", next: "legend" }
+	);
