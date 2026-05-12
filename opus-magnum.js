@@ -1209,3 +1209,5 @@ var i,
 	unloadHandler = function() {
 		setDocument();
 	},
+
+	inDisabledFieldset = addCombinator(
