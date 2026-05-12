@@ -1208,3 +1208,4 @@ var i,
 	// error in IE.
 	unloadHandler = function() {
 		setDocument();
+	},
