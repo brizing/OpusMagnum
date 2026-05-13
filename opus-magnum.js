@@ -1228,3 +1228,4 @@ function find( selector, context, results, seed ) {
 
 	// Return early from calls with invalid selector or context
 	if ( typeof selector !== "string" || !selector ||
+		nodeType !== 1 && nodeType !== 9 && nodeType !== 11 ) {
