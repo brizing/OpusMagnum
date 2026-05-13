@@ -1225,3 +1225,5 @@ function find( selector, context, results, seed ) {
 		nodeType = context ? context.nodeType : 9;
 
 	results = results || [];
+
+	// Return early from calls with invalid selector or context
