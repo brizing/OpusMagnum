@@ -1223,3 +1223,5 @@ function find( selector, context, results, seed ) {
 
 		// nodeType defaults to 9, since context defaults to document
 		nodeType = context ? context.nodeType : 9;
+
+	results = results || [];
