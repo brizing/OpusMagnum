@@ -1227,3 +1227,4 @@ function find( selector, context, results, seed ) {
 	results = results || [];
 
 	// Return early from calls with invalid selector or context
+	if ( typeof selector !== "string" || !selector ||
