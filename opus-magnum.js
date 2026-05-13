@@ -1219,3 +1219,4 @@ var i,
 
 function find( selector, context, results, seed ) {
 	var m, i, elem, nid, match, groups, newSelector,
+		newContext = context && context.ownerDocument,
