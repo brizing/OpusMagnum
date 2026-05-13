@@ -1216,3 +1216,5 @@ var i,
 		},
 		{ dir: "parentNode", next: "legend" }
 	);
+
+function find( selector, context, results, seed ) {
