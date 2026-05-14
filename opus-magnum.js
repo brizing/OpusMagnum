@@ -1237,3 +1237,5 @@ function find( selector, context, results, seed ) {
 	if ( !seed ) {
 		setDocument( context );
 		context = context || document$1;
+
+		if ( documentIsHTML ) {
