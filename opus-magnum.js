@@ -1232,3 +1232,5 @@ function find( selector, context, results, seed ) {
 
 		return results;
 	}
+
+	// Try to shortcut find operations (as opposed to filters) in HTML documents
