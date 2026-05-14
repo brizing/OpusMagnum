@@ -1241,3 +1241,4 @@ function find( selector, context, results, seed ) {
 		if ( documentIsHTML ) {
 
 			// If the selector is sufficiently simple, try using a "get*By*" DOM method
+			// (excepting DocumentFragment context, where the methods don't exist)
