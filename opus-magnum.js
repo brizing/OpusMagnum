@@ -1245,3 +1245,4 @@ function find( selector, context, results, seed ) {
 			if ( nodeType !== 11 && ( match = rquickExpr.exec( selector ) ) ) {
 
 				// ID selector
+				if ( ( m = match[ 1 ] ) ) {
