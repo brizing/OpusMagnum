@@ -1236,3 +1236,4 @@ function find( selector, context, results, seed ) {
 	// Try to shortcut find operations (as opposed to filters) in HTML documents
 	if ( !seed ) {
 		setDocument( context );
+		context = context || document$1;
