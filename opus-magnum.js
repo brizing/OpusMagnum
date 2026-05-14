@@ -1231,3 +1231,4 @@ function find( selector, context, results, seed ) {
 		nodeType !== 1 && nodeType !== 9 && nodeType !== 11 ) {
 
 		return results;
+	}
