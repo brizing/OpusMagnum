@@ -1246,3 +1246,5 @@ function find( selector, context, results, seed ) {
 
 				// ID selector
 				if ( ( m = match[ 1 ] ) ) {
+
+					// Document context
