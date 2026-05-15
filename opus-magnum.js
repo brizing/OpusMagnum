@@ -1248,3 +1248,4 @@ function find( selector, context, results, seed ) {
 				if ( ( m = match[ 1 ] ) ) {
 
 					// Document context
+					if ( nodeType === 9 ) {
