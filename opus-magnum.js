@@ -1251,3 +1251,4 @@ function find( selector, context, results, seed ) {
 					if ( nodeType === 9 ) {
 						if ( ( elem = context.getElementById( m ) ) ) {
 							push.call( results, elem );
+						}
