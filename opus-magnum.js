@@ -1274,3 +1274,4 @@ function find( selector, context, results, seed ) {
 					push.apply( results, context.getElementsByClassName( m ) );
 					return results;
 				}
+			}
