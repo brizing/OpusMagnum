@@ -1282,3 +1282,5 @@ function find( selector, context, results, seed ) {
 
 				newSelector = selector;
 				newContext = context;
+
+				// qSA considers elements outside a scoping root when evaluating child or
