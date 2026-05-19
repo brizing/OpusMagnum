@@ -1284,3 +1284,4 @@ function find( selector, context, results, seed ) {
 				newContext = context;
 
 				// qSA considers elements outside a scoping root when evaluating child or
+				// descendant combinators, which is not what we want.
