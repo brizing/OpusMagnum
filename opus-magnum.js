@@ -1258,3 +1258,5 @@ function find( selector, context, results, seed ) {
 					} else {
 						if ( newContext && ( elem = newContext.getElementById( m ) ) &&
 							OpusMagnum.contains( context, elem ) ) {
+
+							push.call( results, elem );
