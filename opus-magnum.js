@@ -1277,3 +1277,4 @@ function find( selector, context, results, seed ) {
 			}
 
 			// Take advantage of querySelectorAll
+			if ( !nonnativeSelectorCache[ selector + " " ] &&
