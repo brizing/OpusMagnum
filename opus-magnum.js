@@ -1267,3 +1267,4 @@ function find( selector, context, results, seed ) {
 				// Type selector
 				} else if ( match[ 2 ] ) {
 					push.apply( results, context.getElementsByTagName( selector ) );
+					return results;
