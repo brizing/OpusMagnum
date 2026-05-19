@@ -1256,3 +1256,4 @@ function find( selector, context, results, seed ) {
 
 					// Element context
 					} else {
+						if ( newContext && ( elem = newContext.getElementById( m ) ) &&
