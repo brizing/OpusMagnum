@@ -1260,3 +1260,4 @@ function find( selector, context, results, seed ) {
 							OpusMagnum.contains( context, elem ) ) {
 
 							push.call( results, elem );
+							return results;
