@@ -1281,3 +1281,4 @@ function find( selector, context, results, seed ) {
 				( !rbuggyQSA || !rbuggyQSA.test( selector ) ) ) {
 
 				newSelector = selector;
+				newContext = context;
