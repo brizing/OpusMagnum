@@ -1265,3 +1265,4 @@ function find( selector, context, results, seed ) {
 					}
 
 				// Type selector
+				} else if ( match[ 2 ] ) {
