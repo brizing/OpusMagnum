@@ -1271,3 +1271,4 @@ function find( selector, context, results, seed ) {
 
 				// Class selector
 				} else if ( ( m = match[ 3 ] ) && context.getElementsByClassName ) {
+					push.apply( results, context.getElementsByClassName( m ) );
