@@ -1261,3 +1261,4 @@ function find( selector, context, results, seed ) {
 
 							push.call( results, elem );
 							return results;
+						}
