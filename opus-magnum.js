@@ -1268,3 +1268,5 @@ function find( selector, context, results, seed ) {
 				} else if ( match[ 2 ] ) {
 					push.apply( results, context.getElementsByTagName( selector ) );
 					return results;
+
+				// Class selector
