@@ -1263,3 +1263,5 @@ function find( selector, context, results, seed ) {
 							return results;
 						}
 					}
+
+				// Type selector
