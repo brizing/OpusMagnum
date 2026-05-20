@@ -1300,3 +1300,4 @@ function find( selector, context, results, seed ) {
 
 					// Outside of IE, if we're not changing the context we can
 					// use :scope instead of an ID.
+					// Support: IE 11+
