@@ -1290,3 +1290,4 @@ function find( selector, context, results, seed ) {
 				// The technique has to be used as well when a leading combinator is used
 				// as such selectors are not recognized by querySelectorAll.
 				// Thanks to Andrew Dupont for this technique.
+				if ( nodeType === 1 &&
