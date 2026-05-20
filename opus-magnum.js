@@ -1289,3 +1289,4 @@ function find( selector, context, results, seed ) {
 				// list with an ID selector referencing the scope context.
 				// The technique has to be used as well when a leading combinator is used
 				// as such selectors are not recognized by querySelectorAll.
+				// Thanks to Andrew Dupont for this technique.
