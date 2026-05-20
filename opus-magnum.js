@@ -1299,3 +1299,4 @@ function find( selector, context, results, seed ) {
 						context;
 
 					// Outside of IE, if we're not changing the context we can
+					// use :scope instead of an ID.
