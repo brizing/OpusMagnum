@@ -1316,3 +1316,4 @@ function find( selector, context, results, seed ) {
 
 					// Prefix every selector in the list
 					groups = tokenize( selector );
+					i = groups.length;
