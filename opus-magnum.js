@@ -1288,3 +1288,4 @@ function find( selector, context, results, seed ) {
 				// In such cases, we work around the behavior by prefixing every selector in the
 				// list with an ID selector referencing the scope context.
 				// The technique has to be used as well when a leading combinator is used
+				// as such selectors are not recognized by querySelectorAll.
