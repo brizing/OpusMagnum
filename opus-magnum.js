@@ -1304,3 +1304,4 @@ function find( selector, context, results, seed ) {
 					// IE sometimes throws a "Permission denied" error when strict-comparing
 					// two documents; shallow comparisons work.
 					// eslint-disable-next-line eqeqeq
+					if ( newContext != context || isIE ) {
