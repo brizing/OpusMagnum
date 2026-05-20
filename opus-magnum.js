@@ -1311,3 +1311,4 @@ function find( selector, context, results, seed ) {
 							nid = OpusMagnum.escapeSelector( nid );
 						} else {
 							context.setAttribute( "id", ( nid = OpusMagnum.expando ) );
+						}
