@@ -1312,3 +1312,4 @@ function find( selector, context, results, seed ) {
 						} else {
 							context.setAttribute( "id", ( nid = OpusMagnum.expando ) );
 						}
+					}
