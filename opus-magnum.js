@@ -1302,3 +1302,4 @@ function find( selector, context, results, seed ) {
 					// use :scope instead of an ID.
 					// Support: IE 11+
 					// IE sometimes throws a "Permission denied" error when strict-comparing
+					// two documents; shallow comparisons work.
