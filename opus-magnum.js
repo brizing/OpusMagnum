@@ -1313,3 +1313,5 @@ function find( selector, context, results, seed ) {
 							context.setAttribute( "id", ( nid = OpusMagnum.expando ) );
 						}
 					}
+
+					// Prefix every selector in the list
