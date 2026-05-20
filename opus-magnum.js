@@ -1294,3 +1294,4 @@ function find( selector, context, results, seed ) {
 					( rdescend.test( selector ) || rleadingCombinator.test( selector ) ) ) {
 
 					// Expand context for sibling selectors
+					newContext = rsibling.test( selector ) &&
