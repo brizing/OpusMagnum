@@ -1305,3 +1305,5 @@ function find( selector, context, results, seed ) {
 					// two documents; shallow comparisons work.
 					// eslint-disable-next-line eqeqeq
 					if ( newContext != context || isIE ) {
+
+						// Capture the context ID, setting it first if necessary
