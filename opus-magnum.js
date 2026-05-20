@@ -1297,3 +1297,5 @@ function find( selector, context, results, seed ) {
 					newContext = rsibling.test( selector ) &&
 						testContext( context.parentNode ) ||
 						context;
+
+					// Outside of IE, if we're not changing the context we can
