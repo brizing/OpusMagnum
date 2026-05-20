@@ -1296,3 +1296,4 @@ function find( selector, context, results, seed ) {
 					// Expand context for sibling selectors
 					newContext = rsibling.test( selector ) &&
 						testContext( context.parentNode ) ||
+						context;
