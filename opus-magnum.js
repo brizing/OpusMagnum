@@ -1321,3 +1321,4 @@ function find( selector, context, results, seed ) {
 						groups[ i ] = ( nid ? "#" + nid : ":scope" ) + " " +
 							toSelector( groups[ i ] );
 					}
+					newSelector = groups.join( "," );
