@@ -1323,3 +1323,5 @@ function find( selector, context, results, seed ) {
 					}
 					newSelector = groups.join( "," );
 				}
+
+				try {
