@@ -1320,3 +1320,4 @@ function find( selector, context, results, seed ) {
 					while ( i-- ) {
 						groups[ i ] = ( nid ? "#" + nid : ":scope" ) + " " +
 							toSelector( groups[ i ] );
+					}
