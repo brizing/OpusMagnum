@@ -1322,3 +1322,4 @@ function find( selector, context, results, seed ) {
 							toSelector( groups[ i ] );
 					}
 					newSelector = groups.join( "," );
+				}
