@@ -1327,3 +1327,4 @@ function find( selector, context, results, seed ) {
 				try {
 					push.apply( results,
 						newContext.querySelectorAll( newSelector )
+					);
