@@ -1334,3 +1334,4 @@ function find( selector, context, results, seed ) {
 				} finally {
 					if ( nid === OpusMagnum.expando ) {
 						context.removeAttribute( "id" );
+					}
