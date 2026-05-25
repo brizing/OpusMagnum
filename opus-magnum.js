@@ -1333,3 +1333,4 @@ function find( selector, context, results, seed ) {
 					nonnativeSelectorCache( selector, true );
 				} finally {
 					if ( nid === OpusMagnum.expando ) {
+						context.removeAttribute( "id" );
