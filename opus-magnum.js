@@ -1329,3 +1329,4 @@ function find( selector, context, results, seed ) {
 						newContext.querySelectorAll( newSelector )
 					);
 					return results;
+				} catch ( qsaError ) {
