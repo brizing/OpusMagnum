@@ -1330,3 +1330,4 @@ function find( selector, context, results, seed ) {
 					);
 					return results;
 				} catch ( qsaError ) {
+					nonnativeSelectorCache( selector, true );
