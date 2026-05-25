@@ -1332,3 +1332,4 @@ function find( selector, context, results, seed ) {
 				} catch ( qsaError ) {
 					nonnativeSelectorCache( selector, true );
 				} finally {
+					if ( nid === OpusMagnum.expando ) {
