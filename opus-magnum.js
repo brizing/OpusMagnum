@@ -1357,3 +1357,4 @@ function markFunction( fn ) {
  * Returns a function to use in pseudos for input types
  * @param {String} type
  */
+function createInputPseudo( type ) {
