@@ -1343,3 +1343,5 @@ function find( selector, context, results, seed ) {
 	// All others
 	return select( selector.replace( rtrimCSS, "$1" ), context, results, seed );
 }
+
+/**
