@@ -1347,3 +1347,4 @@ function find( selector, context, results, seed ) {
 /**
  * Mark a function for special use by OpusMagnum selector module
  * @param {Function} fn The function to mark
+ */
