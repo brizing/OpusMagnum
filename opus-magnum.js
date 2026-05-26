@@ -1349,3 +1349,4 @@ function find( selector, context, results, seed ) {
  * @param {Function} fn The function to mark
  */
 function markFunction( fn ) {
+	fn[ OpusMagnum.expando ] = true;
