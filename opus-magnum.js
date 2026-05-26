@@ -1336,3 +1336,4 @@ function find( selector, context, results, seed ) {
 						context.removeAttribute( "id" );
 					}
 				}
+			}
