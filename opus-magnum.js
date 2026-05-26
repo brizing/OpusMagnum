@@ -1339,3 +1339,5 @@ function find( selector, context, results, seed ) {
 			}
 		}
 	}
+
+	// All others
