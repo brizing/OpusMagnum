@@ -1351,3 +1351,4 @@ function find( selector, context, results, seed ) {
 function markFunction( fn ) {
 	fn[ OpusMagnum.expando ] = true;
 	return fn;
+}
