@@ -1364,3 +1364,4 @@ function createInputPseudo( type ) {
 }
 
 /**
+ * Returns a function to use in pseudos for buttons
