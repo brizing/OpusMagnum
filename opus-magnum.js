@@ -1368,3 +1368,4 @@ function createInputPseudo( type ) {
  * @param {String} type
  */
 function createButtonPseudo( type ) {
+	return function( elem ) {
