@@ -1362,3 +1362,5 @@ function createInputPseudo( type ) {
 		return nodeName( elem, "input" ) && elem.type === type;
 	};
 }
+
+/**
