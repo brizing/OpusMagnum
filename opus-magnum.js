@@ -1358,3 +1358,4 @@ function markFunction( fn ) {
  * @param {String} type
  */
 function createInputPseudo( type ) {
+	return function( elem ) {
