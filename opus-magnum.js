@@ -1361,3 +1361,4 @@ function createInputPseudo( type ) {
 	return function( elem ) {
 		return nodeName( elem, "input" ) && elem.type === type;
 	};
+}
