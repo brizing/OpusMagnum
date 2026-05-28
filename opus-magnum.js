@@ -1387,3 +1387,5 @@ function createDisabledPseudo( disabled ) {
 		// https://html.spec.whatwg.org/multipage/scripting.html#selector-enabled
 		// https://html.spec.whatwg.org/multipage/scripting.html#selector-disabled
 		if ( "form" in elem ) {
+
+			// Check for inherited disabledness on relevant non-disabled elements:
