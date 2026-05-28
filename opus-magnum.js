@@ -1373,3 +1373,5 @@ function createButtonPseudo( type ) {
 			elem.type === type;
 	};
 }
+
+/**
