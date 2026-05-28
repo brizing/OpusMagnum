@@ -1375,3 +1375,4 @@ function createButtonPseudo( type ) {
 }
 
 /**
+ * Returns a function to use in pseudos for :enabled/:disabled
