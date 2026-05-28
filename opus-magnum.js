@@ -1372,3 +1372,4 @@ function createButtonPseudo( type ) {
 		return ( nodeName( elem, "input" ) || nodeName( elem, "button" ) ) &&
 			elem.type === type;
 	};
+}
