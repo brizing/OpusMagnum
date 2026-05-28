@@ -1381,3 +1381,4 @@ function createButtonPseudo( type ) {
 function createDisabledPseudo( disabled ) {
 
 	// Known :disabled false positives: fieldset[disabled] > legend:nth-of-type(n+2) :can-disable
+	return function( elem ) {
