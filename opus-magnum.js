@@ -1392,3 +1392,4 @@ function createDisabledPseudo( disabled ) {
 			// * listed form-associated elements in a disabled fieldset
 			//   https://html.spec.whatwg.org/multipage/forms.html#category-listed
 			//   https://html.spec.whatwg.org/multipage/forms.html#concept-fe-disabled
+			// * option elements in a disabled optgroup
