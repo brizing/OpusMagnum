@@ -1398,3 +1398,4 @@ function createDisabledPseudo( disabled ) {
 			if ( elem.parentNode && elem.disabled === false ) {
 
 				// Option elements defer to a parent optgroup if present
+				if ( "label" in elem ) {
