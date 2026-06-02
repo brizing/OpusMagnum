@@ -1405,3 +1405,5 @@ function createDisabledPseudo( disabled ) {
 						return elem.disabled === disabled;
 					}
 				}
+
+				// Support: IE 6 - 11+
