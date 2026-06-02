@@ -1411,3 +1411,4 @@ function createDisabledPseudo( disabled ) {
 				return elem.isDisabled === disabled ||
 
 					// Where there is no isDisabled, check manually
+					elem.isDisabled !== !disabled &&
