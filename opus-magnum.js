@@ -1403,3 +1403,4 @@ function createDisabledPseudo( disabled ) {
 						return elem.parentNode.disabled === disabled;
 					} else {
 						return elem.disabled === disabled;
+					}
