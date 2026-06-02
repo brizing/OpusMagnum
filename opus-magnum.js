@@ -1409,3 +1409,5 @@ function createDisabledPseudo( disabled ) {
 				// Support: IE 6 - 11+
 				// Use the isDisabled shortcut property to check for disabled fieldset ancestors
 				return elem.isDisabled === disabled ||
+
+					// Where there is no isDisabled, check manually
