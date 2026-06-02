@@ -1402,3 +1402,4 @@ function createDisabledPseudo( disabled ) {
 					if ( "label" in elem.parentNode ) {
 						return elem.parentNode.disabled === disabled;
 					} else {
+						return elem.disabled === disabled;
