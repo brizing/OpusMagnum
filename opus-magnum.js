@@ -1412,3 +1412,4 @@ function createDisabledPseudo( disabled ) {
 
 					// Where there is no isDisabled, check manually
 					elem.isDisabled !== !disabled &&
+						inDisabledFieldset( elem ) === disabled;
