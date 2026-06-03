@@ -1414,3 +1414,5 @@ function createDisabledPseudo( disabled ) {
 					elem.isDisabled !== !disabled &&
 						inDisabledFieldset( elem ) === disabled;
 			}
+
+			return elem.disabled === disabled;
