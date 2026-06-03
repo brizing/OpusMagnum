@@ -1422,3 +1422,4 @@ function createDisabledPseudo( disabled ) {
 		// even exist on them, let alone have a boolean value.
 		} else if ( "label" in elem ) {
 			return elem.disabled === disabled;
+		}
