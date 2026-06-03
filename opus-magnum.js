@@ -1423,3 +1423,5 @@ function createDisabledPseudo( disabled ) {
 		} else if ( "label" in elem ) {
 			return elem.disabled === disabled;
 		}
+
+		// Remaining elements are neither :enabled nor :disabled
