@@ -1416,3 +1416,5 @@ function createDisabledPseudo( disabled ) {
 			}
 
 			return elem.disabled === disabled;
+
+		// Try to winnow out elements that can't be disabled before trusting the disabled property.
