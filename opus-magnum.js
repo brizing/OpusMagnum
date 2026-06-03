@@ -1419,3 +1419,4 @@ function createDisabledPseudo( disabled ) {
 
 		// Try to winnow out elements that can't be disabled before trusting the disabled property.
 		// Some victims get caught in our net (label, legend, menu, track), but it shouldn't
+		// even exist on them, let alone have a boolean value.
