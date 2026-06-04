@@ -1434,3 +1434,4 @@ function createDisabledPseudo( disabled ) {
  * @param {Function} fn
  */
 function createPositionalPseudo( fn ) {
+	return markFunction( function( argument ) {
