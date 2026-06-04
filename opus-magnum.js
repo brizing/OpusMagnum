@@ -1430,3 +1430,4 @@ function createDisabledPseudo( disabled ) {
 }
 
 /**
+ * Returns a function to use in pseudos for positionals
