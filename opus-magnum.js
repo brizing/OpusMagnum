@@ -1427,3 +1427,4 @@ function createDisabledPseudo( disabled ) {
 		// Remaining elements are neither :enabled nor :disabled
 		return false;
 	};
+}
