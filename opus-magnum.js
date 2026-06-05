@@ -1438,3 +1438,4 @@ function createPositionalPseudo( fn ) {
 		argument = +argument;
 		return markFunction( function( seed, matches ) {
 			var j,
+				matchIndexes = fn( [], seed.length, argument ),
