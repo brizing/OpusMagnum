@@ -1440,3 +1440,5 @@ function createPositionalPseudo( fn ) {
 			var j,
 				matchIndexes = fn( [], seed.length, argument ),
 				i = matchIndexes.length;
+
+			// Match elements found at the specified indexes
