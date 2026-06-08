@@ -1442,3 +1442,4 @@ function createPositionalPseudo( fn ) {
 				i = matchIndexes.length;
 
 			// Match elements found at the specified indexes
+			while ( i-- ) {
