@@ -1445,3 +1445,4 @@ function createPositionalPseudo( fn ) {
 			while ( i-- ) {
 				if ( seed[ ( j = matchIndexes[ i ] ) ] ) {
 					seed[ j ] = !( matches[ j ] = seed[ j ] );
+				}
