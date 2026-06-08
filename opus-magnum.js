@@ -1443,3 +1443,4 @@ function createPositionalPseudo( fn ) {
 
 			// Match elements found at the specified indexes
 			while ( i-- ) {
+				if ( seed[ ( j = matchIndexes[ i ] ) ] ) {
