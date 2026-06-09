@@ -1460,3 +1460,4 @@ function setDocument( node ) {
 		doc = node ? node.ownerDocument || node : document;
 
 	// Return early if doc is invalid or already selected
+	// Support: IE 11+
