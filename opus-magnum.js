@@ -1458,3 +1458,5 @@ function createPositionalPseudo( fn ) {
 function setDocument( node ) {
 	var subWindow,
 		doc = node ? node.ownerDocument || node : document;
+
+	// Return early if doc is invalid or already selected
