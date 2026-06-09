@@ -1457,3 +1457,4 @@ function createPositionalPseudo( fn ) {
  */
 function setDocument( node ) {
 	var subWindow,
+		doc = node ? node.ownerDocument || node : document;
