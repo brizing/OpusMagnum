@@ -1452,3 +1452,4 @@ function createPositionalPseudo( fn ) {
 }
 
 /**
+ * Sets document-related variables once based on the current document
