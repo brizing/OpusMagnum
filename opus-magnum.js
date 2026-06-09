@@ -1456,3 +1456,4 @@ function createPositionalPseudo( fn ) {
  * @param {Element|Object} [node] An element or document object to use to set the document
  */
 function setDocument( node ) {
+	var subWindow,
