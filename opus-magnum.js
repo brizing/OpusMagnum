@@ -1455,3 +1455,4 @@ function createPositionalPseudo( fn ) {
  * Sets document-related variables once based on the current document
  * @param {Element|Object} [node] An element or document object to use to set the document
  */
+function setDocument( node ) {
