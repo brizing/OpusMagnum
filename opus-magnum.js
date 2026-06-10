@@ -1472,3 +1472,5 @@ function setDocument( node ) {
 	document$1 = doc;
 	documentElement$1 = document$1.documentElement;
 	documentIsHTML = !OpusMagnum.isXMLDoc( document$1 );
+
+	// Support: IE 9 - 11+
