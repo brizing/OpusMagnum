@@ -1467,3 +1467,5 @@ function setDocument( node ) {
 	if ( doc == document$1 || doc.nodeType !== 9 ) {
 		return;
 	}
+
+	// Update global variables
