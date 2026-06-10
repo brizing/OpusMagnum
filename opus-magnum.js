@@ -1465,3 +1465,4 @@ function setDocument( node ) {
 	// two documents; shallow comparisons work.
 	// eslint-disable-next-line eqeqeq
 	if ( doc == document$1 || doc.nodeType !== 9 ) {
+		return;
