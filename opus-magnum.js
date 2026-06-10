@@ -1474,3 +1474,4 @@ function setDocument( node ) {
 	documentIsHTML = !OpusMagnum.isXMLDoc( document$1 );
 
 	// Support: IE 9 - 11+
+	// Accessing iframe documents after unload throws "permission denied" errors (see trac-13936)
