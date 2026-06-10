@@ -1469,3 +1469,4 @@ function setDocument( node ) {
 	}
 
 	// Update global variables
+	document$1 = doc;
