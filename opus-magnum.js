@@ -1470,3 +1470,4 @@ function setDocument( node ) {
 
 	// Update global variables
 	document$1 = doc;
+	documentElement$1 = document$1.documentElement;
