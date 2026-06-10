@@ -1466,3 +1466,4 @@ function setDocument( node ) {
 	// eslint-disable-next-line eqeqeq
 	if ( doc == document$1 || doc.nodeType !== 9 ) {
 		return;
+	}
