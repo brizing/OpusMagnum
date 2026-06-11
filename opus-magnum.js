@@ -1490,3 +1490,4 @@ find.matches = function( expr, elements ) {
 };
 
 find.matchesSelector = function( elem, expr ) {
+	setDocument( elem );
