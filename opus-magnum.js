@@ -1477,3 +1477,4 @@ function setDocument( node ) {
 	// Accessing iframe documents after unload throws "permission denied" errors (see trac-13936)
 	// Support: IE 11+
 	// IE sometimes throws a "Permission denied" error when strict-comparing
+	// two documents; shallow comparisons work.
