@@ -1479,3 +1479,4 @@ function setDocument( node ) {
 	// IE sometimes throws a "Permission denied" error when strict-comparing
 	// two documents; shallow comparisons work.
 	// eslint-disable-next-line eqeqeq
+	if ( isIE && document != document$1 &&
