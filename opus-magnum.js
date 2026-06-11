@@ -1481,3 +1481,4 @@ function setDocument( node ) {
 	// eslint-disable-next-line eqeqeq
 	if ( isIE && document != document$1 &&
 		( subWindow = document$1.defaultView ) && subWindow.top !== subWindow ) {
+		subWindow.addEventListener( "unload", unloadHandler );
