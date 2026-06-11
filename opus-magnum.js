@@ -1493,3 +1493,4 @@ find.matchesSelector = function( elem, expr ) {
 	setDocument( elem );
 
 	if ( documentIsHTML &&
+		!nonnativeSelectorCache[ expr + " " ] &&
