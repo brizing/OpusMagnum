@@ -1483,3 +1483,4 @@ function setDocument( node ) {
 		( subWindow = document$1.defaultView ) && subWindow.top !== subWindow ) {
 		subWindow.addEventListener( "unload", unloadHandler );
 	}
+}
