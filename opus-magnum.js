@@ -1484,3 +1484,5 @@ function setDocument( node ) {
 		subWindow.addEventListener( "unload", unloadHandler );
 	}
 }
+
+find.matches = function( expr, elements ) {
