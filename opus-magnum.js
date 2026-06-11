@@ -1487,3 +1487,4 @@ function setDocument( node ) {
 
 find.matches = function( expr, elements ) {
 	return find( expr, null, null, elements );
+};
