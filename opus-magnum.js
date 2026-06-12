@@ -1497,3 +1497,4 @@ find.matchesSelector = function( elem, expr ) {
 		( !rbuggyQSA || !rbuggyQSA.test( expr ) ) ) {
 
 		try {
+			return matches.call( elem, expr );
