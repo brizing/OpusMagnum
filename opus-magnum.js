@@ -1495,3 +1495,5 @@ find.matchesSelector = function( elem, expr ) {
 	if ( documentIsHTML &&
 		!nonnativeSelectorCache[ expr + " " ] &&
 		( !rbuggyQSA || !rbuggyQSA.test( expr ) ) ) {
+
+		try {
