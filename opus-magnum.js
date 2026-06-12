@@ -1498,3 +1498,4 @@ find.matchesSelector = function( elem, expr ) {
 
 		try {
 			return matches.call( elem, expr );
+		} catch ( e ) {
