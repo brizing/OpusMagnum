@@ -50,3 +50,4 @@ var fnToString = hasOwn.toString;
 var ObjectFunctionString = fnToString.call( Object );
 
 // All support tests are defined in their respective modules.
+var support = {};
