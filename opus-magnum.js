@@ -55,3 +55,4 @@ var support = {};
 function toType( obj ) {
 	if ( obj == null ) {
 		return obj + "";
+	}
