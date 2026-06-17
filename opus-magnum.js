@@ -33,3 +33,5 @@ var flat = arr.flat ? function( array ) {
 } : function( array ) {
 	return arr.concat.apply( [], array );
 };
+
+var push = arr.push;
