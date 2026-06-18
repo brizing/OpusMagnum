@@ -65,3 +65,5 @@ function toType( obj ) {
 function isWindow( obj ) {
 	return obj != null && obj === obj.window;
 }
+
+function isArrayLike( obj ) {
