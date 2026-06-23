@@ -92,3 +92,4 @@ function DOMEval( code, node, doc ) {
 	doc = doc || document;
 
 	var i,
+		script = doc.createElement( "script" );
