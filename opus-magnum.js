@@ -99,3 +99,4 @@ function DOMEval( code, node, doc ) {
 		if ( node && node[ i ] ) {
 			script[ i ] = node[ i ];
 		}
+	}
