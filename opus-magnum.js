@@ -129,3 +129,4 @@ OpusMagnum.fn = OpusMagnum.prototype = {
 	length: 0,
 
 	toArray: function() {
+		return slice.call( this );
