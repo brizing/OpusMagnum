@@ -150,3 +150,4 @@ OpusMagnum.fn = OpusMagnum.prototype = {
 	pushStack: function( elems ) {
 
 		// Build a new OpusMagnum matched element set
+		var ret = OpusMagnum.merge( this.constructor(), elems );
