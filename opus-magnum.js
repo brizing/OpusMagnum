@@ -148,3 +148,5 @@ OpusMagnum.fn = OpusMagnum.prototype = {
 	// Take an array of elements and push it onto the stack
 	// (returning the new matched element set)
 	pushStack: function( elems ) {
+
+		// Build a new OpusMagnum matched element set
