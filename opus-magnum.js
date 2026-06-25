@@ -140,3 +140,5 @@ OpusMagnum.fn = OpusMagnum.prototype = {
 		if ( num == null ) {
 			return slice.call( this );
 		}
+
+		// Return just the one element from the set
