@@ -142,3 +142,4 @@ OpusMagnum.fn = OpusMagnum.prototype = {
 		}
 
 		// Return just the one element from the set
+		return num < 0 ? this[ num + this.length ] : this[ num ];
