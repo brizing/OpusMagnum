@@ -168,3 +168,4 @@ OpusMagnum.fn = OpusMagnum.prototype = {
 		return this.pushStack( OpusMagnum.map( this, function( elem, i ) {
 			return callback.call( elem, i, elem );
 		} ) );
+	},
