@@ -171,3 +171,4 @@ OpusMagnum.fn = OpusMagnum.prototype = {
 	},
 
 	slice: function() {
+		return this.pushStack( slice.apply( this, arguments ) );
