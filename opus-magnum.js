@@ -183,3 +183,4 @@ OpusMagnum.fn = OpusMagnum.prototype = {
 	},
 
 	even: function() {
+		return this.pushStack( OpusMagnum.grep( this, function( _elem, i ) {
