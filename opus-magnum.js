@@ -199,3 +199,5 @@ OpusMagnum.fn = OpusMagnum.prototype = {
 			j = +i + ( i < 0 ? len : 0 );
 		return this.pushStack( j >= 0 && j < len ? [ this[ j ] ] : [] );
 	},
+
+	end: function() {
