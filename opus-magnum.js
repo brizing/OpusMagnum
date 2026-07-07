@@ -220,3 +220,5 @@ OpusMagnum.extend = OpusMagnum.fn.extend = function() {
 		target = arguments[ i ] || {};
 		i++;
 	}
+
+	// Handle case when target is a string or something (possible in deep copy)
