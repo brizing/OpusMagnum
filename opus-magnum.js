@@ -225,3 +225,5 @@ OpusMagnum.extend = OpusMagnum.fn.extend = function() {
 	if ( typeof target !== "object" && typeof target !== "function" ) {
 		target = {};
 	}
+
+	// Extend OpusMagnum itself if only one argument is passed
