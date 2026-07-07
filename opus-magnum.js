@@ -219,3 +219,4 @@ OpusMagnum.extend = OpusMagnum.fn.extend = function() {
 		// Skip the boolean and the target
 		target = arguments[ i ] || {};
 		i++;
+	}
