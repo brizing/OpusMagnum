@@ -245,3 +245,4 @@ OpusMagnum.extend = OpusMagnum.fn.extend = function() {
 				// Prevent never-ending loop
 				if ( name === "__proto__" || target === copy ) {
 					continue;
+				}
