@@ -40,3 +40,5 @@ var indexOf = arr.indexOf;
 
 // [[Class]] -> type pairs
 var class2type = {};
+
+var toString = class2type.toString;
