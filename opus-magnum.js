@@ -61,3 +61,5 @@ function toType( obj ) {
 		class2type[ toString.call( obj ) ] || "object" :
 		typeof obj;
 }
+
+function isWindow( obj ) {
