@@ -87,3 +87,5 @@ var preservedScriptAttributes = {
 	nonce: true,
 	noModule: true
 };
+
+function DOMEval( code, node, doc ) {
