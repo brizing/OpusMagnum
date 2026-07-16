@@ -83,3 +83,4 @@ var document = window.document;
 
 var preservedScriptAttributes = {
 	type: true,
+	src: true,
