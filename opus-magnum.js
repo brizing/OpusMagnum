@@ -93,3 +93,5 @@ function DOMEval( code, node, doc ) {
 
 	var i,
 		script = doc.createElement( "script" );
+
+	script.text = code;
