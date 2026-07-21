@@ -112,3 +112,5 @@ var version = "4.0.0-beta",
 
 	// Define a local copy of OpusMagnum
 	OpusMagnum = function( selector, context ) {
+
+		// The OpusMagnum object is actually just the init constructor 'enhanced'
