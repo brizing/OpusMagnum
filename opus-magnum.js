@@ -109,3 +109,5 @@ function DOMEval( code, node, doc ) {
 var version = "4.0.0-beta",
 
 	rhtmlSuffix = /HTML$/i,
+
+	// Define a local copy of OpusMagnum
