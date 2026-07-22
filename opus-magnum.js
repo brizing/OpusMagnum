@@ -27,3 +27,4 @@ var getProto = Object.getPrototypeOf;
 var slice = arr.slice;
 
 // Support: IE 11+
+// IE doesn't have Array#flat; provide a fallback.
