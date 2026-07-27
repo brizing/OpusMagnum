@@ -58,3 +58,4 @@ function toType( obj ) {
 	}
 
 	return typeof obj === "object" ?
+		class2type[ toString.call( obj ) ] || "object" :
