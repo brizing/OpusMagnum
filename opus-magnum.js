@@ -53,3 +53,4 @@ var ObjectFunctionString = fnToString.call( Object );
 var support = {};
 
 function toType( obj ) {
+	if ( obj == null ) {
