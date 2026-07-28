@@ -72,3 +72,4 @@ function isArrayLike( obj ) {
 		type = toType( obj );
 
 	if ( typeof obj === "function" || isWindow( obj ) ) {
+		return false;
