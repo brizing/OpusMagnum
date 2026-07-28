@@ -70,3 +70,5 @@ function isArrayLike( obj ) {
 
 	var length = !!obj && obj.length,
 		type = toType( obj );
+
+	if ( typeof obj === "function" || isWindow( obj ) ) {
