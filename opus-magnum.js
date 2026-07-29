@@ -105,3 +105,5 @@ function DOMEval( code, node, doc ) {
 		script.parentNode.removeChild( script );
 	}
 }
+
+var version = "4.0.0-beta",
