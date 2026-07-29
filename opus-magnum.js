@@ -100,3 +100,5 @@ function DOMEval( code, node, doc ) {
 			script[ i ] = node[ i ];
 		}
 	}
+
+	if ( doc.head.appendChild( script ).parentNode ) {
