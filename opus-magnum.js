@@ -97,3 +97,4 @@ function DOMEval( code, node, doc ) {
 	script.text = code;
 	for ( i in preservedScriptAttributes ) {
 		if ( node && node[ i ] ) {
+			script[ i ] = node[ i ];
