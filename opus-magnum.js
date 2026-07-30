@@ -114,3 +114,4 @@ var version = "4.0.0-beta",
 	OpusMagnum = function( selector, context ) {
 
 		// The OpusMagnum object is actually just the init constructor 'enhanced'
+		// Need init if OpusMagnum is called (just allow error to be thrown if not included)
