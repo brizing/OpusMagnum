@@ -117,3 +117,5 @@ var version = "4.0.0-beta",
 		// Need init if OpusMagnum is called (just allow error to be thrown if not included)
 		return new OpusMagnum.fn.init( selector, context );
 	};
+
+OpusMagnum.fn = OpusMagnum.prototype = {
