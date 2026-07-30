@@ -127,3 +127,5 @@ OpusMagnum.fn = OpusMagnum.prototype = {
 
 	// The default length of a OpusMagnum object is 0
 	length: 0,
+
+	toArray: function() {
