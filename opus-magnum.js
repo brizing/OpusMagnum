@@ -154,3 +154,5 @@ OpusMagnum.fn = OpusMagnum.prototype = {
 
 		// Add the old object onto the stack (as a reference)
 		ret.prevObject = this;
+
+		// Return the newly-formed element set
