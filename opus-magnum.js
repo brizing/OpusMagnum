@@ -158,3 +158,5 @@ OpusMagnum.fn = OpusMagnum.prototype = {
 		// Return the newly-formed element set
 		return ret;
 	},
+
+	// Execute a callback for every element in the matched set.
