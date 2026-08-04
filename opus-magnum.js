@@ -156,3 +156,4 @@ OpusMagnum.fn = OpusMagnum.prototype = {
 		ret.prevObject = this;
 
 		// Return the newly-formed element set
+		return ret;
