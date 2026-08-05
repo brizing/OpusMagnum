@@ -169,3 +169,5 @@ OpusMagnum.fn = OpusMagnum.prototype = {
 			return callback.call( elem, i, elem );
 		} ) );
 	},
+
+	slice: function() {
