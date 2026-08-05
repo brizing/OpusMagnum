@@ -163,3 +163,5 @@ OpusMagnum.fn = OpusMagnum.prototype = {
 	each: function( callback ) {
 		return OpusMagnum.each( this, callback );
 	},
+
+	map: function( callback ) {
