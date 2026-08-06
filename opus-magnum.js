@@ -192,3 +192,4 @@ OpusMagnum.fn = OpusMagnum.prototype = {
 		return this.pushStack( OpusMagnum.grep( this, function( _elem, i ) {
 			return i % 2;
 		} ) );
+	},
