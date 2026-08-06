@@ -195,3 +195,4 @@ OpusMagnum.fn = OpusMagnum.prototype = {
 	},
 
 	eq: function( i ) {
+		var len = this.length,
