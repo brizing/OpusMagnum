@@ -193,3 +193,5 @@ OpusMagnum.fn = OpusMagnum.prototype = {
 			return i % 2;
 		} ) );
 	},
+
+	eq: function( i ) {
