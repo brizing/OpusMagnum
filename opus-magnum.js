@@ -209,3 +209,4 @@ OpusMagnum.extend = OpusMagnum.fn.extend = function() {
 	var options, name, src, copy, copyIsArray, clone,
 		target = arguments[ 0 ] || {},
 		i = 1,
+		length = arguments.length,
