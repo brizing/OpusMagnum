@@ -222,3 +222,4 @@ OpusMagnum.extend = OpusMagnum.fn.extend = function() {
 	}
 
 	// Handle case when target is a string or something (possible in deep copy)
+	if ( typeof target !== "object" && typeof target !== "function" ) {
