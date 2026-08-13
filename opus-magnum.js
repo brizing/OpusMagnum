@@ -238,3 +238,4 @@ OpusMagnum.extend = OpusMagnum.fn.extend = function() {
 		if ( ( options = arguments[ i ] ) != null ) {
 
 			// Extend the base object
+			for ( name in options ) {
