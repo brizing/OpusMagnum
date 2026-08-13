@@ -240,3 +240,5 @@ OpusMagnum.extend = OpusMagnum.fn.extend = function() {
 			// Extend the base object
 			for ( name in options ) {
 				copy = options[ name ];
+
+				// Prevent Object.prototype pollution
