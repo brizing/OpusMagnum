@@ -236,3 +236,5 @@ OpusMagnum.extend = OpusMagnum.fn.extend = function() {
 
 		// Only deal with non-null/undefined values
 		if ( ( options = arguments[ i ] ) != null ) {
+
+			// Extend the base object
