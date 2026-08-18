@@ -253,3 +253,4 @@ OpusMagnum.extend = OpusMagnum.fn.extend = function() {
 					src = target[ name ];
 
 					// Ensure proper type for the source value
+					if ( copyIsArray && !Array.isArray( src ) ) {
