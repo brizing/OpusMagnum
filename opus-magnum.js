@@ -311,3 +311,5 @@ OpusMagnum.extend( {
 		Ctor = hasOwn.call( proto, "constructor" ) && proto.constructor;
 		return typeof Ctor === "function" && fnToString.call( Ctor ) === ObjectFunctionString;
 	},
+
+	isEmptyObject: function( obj ) {
