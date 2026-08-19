@@ -295,3 +295,4 @@ OpusMagnum.extend( {
 		var proto, Ctor;
 
 		// Detect obvious negatives
+		// Use toString instead of OpusMagnum.type to catch host objects
