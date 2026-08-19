@@ -286,3 +286,4 @@ OpusMagnum.extend( {
 	isReady: true,
 
 	error: function( msg ) {
+		throw new Error( msg );
