@@ -284,3 +284,5 @@ OpusMagnum.extend( {
 
 	// Assume OpusMagnum is ready without the ready module
 	isReady: true,
+
+	error: function( msg ) {
