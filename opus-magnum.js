@@ -292,3 +292,4 @@ OpusMagnum.extend( {
 	noop: function() {},
 
 	isPlainObject: function( obj ) {
+		var proto, Ctor;
