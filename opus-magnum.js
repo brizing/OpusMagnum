@@ -363,3 +363,4 @@ OpusMagnum.extend( {
 
 				// Do not traverse comment nodes
 				ret += OpusMagnum.text( node );
+			}
