@@ -365,3 +365,4 @@ OpusMagnum.extend( {
 				ret += OpusMagnum.text( node );
 			}
 		}
+		if ( nodeType === 1 || nodeType === 11 ) {
