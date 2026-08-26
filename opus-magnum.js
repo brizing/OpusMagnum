@@ -362,3 +362,4 @@ OpusMagnum.extend( {
 			while ( ( node = elem[ i++ ] ) ) {
 
 				// Do not traverse comment nodes
+				ret += OpusMagnum.text( node );
