@@ -370,3 +370,4 @@ OpusMagnum.extend( {
 		}
 		if ( nodeType === 9 ) {
 			return elem.documentElement.textContent;
+		}
