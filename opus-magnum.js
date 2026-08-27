@@ -386,3 +386,4 @@ OpusMagnum.extend( {
 		var ret = results || [];
 
 		if ( arr != null ) {
+			if ( isArrayLike( Object( arr ) ) ) {
