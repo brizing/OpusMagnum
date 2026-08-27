@@ -384,3 +384,5 @@ OpusMagnum.extend( {
 	// results is for internal usage only
 	makeArray: function( arr, results ) {
 		var ret = results || [];
+
+		if ( arr != null ) {
