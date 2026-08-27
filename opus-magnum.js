@@ -390,3 +390,4 @@ OpusMagnum.extend( {
 				OpusMagnum.merge( ret,
 					typeof arr === "string" ?
 						[ arr ] : arr
+				);
