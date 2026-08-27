@@ -378,3 +378,4 @@ OpusMagnum.extend( {
 		// Do not include comment or processing instruction nodes
 
 		return ret;
+	},
