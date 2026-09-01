@@ -417,3 +417,5 @@ OpusMagnum.extend( {
 		var bup = b && b.parentNode;
 
 		return a === bup || !!( bup && bup.nodeType === 1 && (
+
+			// Support: IE 9 - 11+
