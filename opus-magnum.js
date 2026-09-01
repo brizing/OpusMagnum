@@ -410,3 +410,4 @@ OpusMagnum.extend( {
 		// Assume HTML when documentElement doesn't yet exist, such as inside
 		// document fragments.
 		return !rhtmlSuffix.test( namespace || docElem && docElem.nodeName || "HTML" );
+	},
