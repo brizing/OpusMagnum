@@ -413,3 +413,4 @@ OpusMagnum.extend( {
 	},
 
 	// Note: an element does not contain itself
+	contains: function( a, b ) {
