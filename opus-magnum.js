@@ -423,3 +423,4 @@ OpusMagnum.extend( {
 			a.contains ?
 				a.contains( bup ) :
 				a.compareDocumentPosition && a.compareDocumentPosition( bup ) & 16
+		) );
