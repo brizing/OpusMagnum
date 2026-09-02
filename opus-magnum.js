@@ -425,3 +425,5 @@ OpusMagnum.extend( {
 				a.compareDocumentPosition && a.compareDocumentPosition( bup ) & 16
 		) );
 	},
+
+	merge: function( first, second ) {
