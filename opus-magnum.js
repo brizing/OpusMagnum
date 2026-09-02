@@ -427,3 +427,4 @@ OpusMagnum.extend( {
 	},
 
 	merge: function( first, second ) {
+		var len = +second.length,
