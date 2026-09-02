@@ -432,3 +432,4 @@ OpusMagnum.extend( {
 			i = first.length;
 
 		for ( ; j < len; j++ ) {
+			first[ i++ ] = second[ j ];
