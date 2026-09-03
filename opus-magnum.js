@@ -446,3 +446,5 @@ OpusMagnum.extend( {
 			i = 0,
 			length = elems.length,
 			callbackExpect = !invert;
+
+		// Go through the array, only saving the items
