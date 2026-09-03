@@ -438,3 +438,4 @@ OpusMagnum.extend( {
 		first.length = i;
 
 		return first;
+	},
