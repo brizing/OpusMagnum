@@ -443,3 +443,4 @@ OpusMagnum.extend( {
 	grep: function( elems, callback, invert ) {
 		var callbackInverse,
 			matches = [],
+			i = 0,
