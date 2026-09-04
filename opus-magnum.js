@@ -449,3 +449,4 @@ OpusMagnum.extend( {
 
 		// Go through the array, only saving the items
 		// that pass the validator function
+		for ( ; i < length; i++ ) {
