@@ -454,3 +454,4 @@ OpusMagnum.extend( {
 			if ( callbackInverse !== callbackExpect ) {
 				matches.push( elems[ i ] );
 			}
+		}
