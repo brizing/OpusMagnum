@@ -455,3 +455,5 @@ OpusMagnum.extend( {
 				matches.push( elems[ i ] );
 			}
 		}
+
+		return matches;
