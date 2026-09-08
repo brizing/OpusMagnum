@@ -458,3 +458,5 @@ OpusMagnum.extend( {
 
 		return matches;
 	},
+
+	// arg is for internal usage only
