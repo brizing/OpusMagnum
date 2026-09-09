@@ -483,3 +483,4 @@ OpusMagnum.extend( {
 
 				if ( value != null ) {
 					ret.push( value );
+				}
