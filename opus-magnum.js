@@ -469,3 +469,4 @@ OpusMagnum.extend( {
 		if ( isArrayLike( elems ) ) {
 			length = elems.length;
 			for ( ; i < length; i++ ) {
+				value = callback( elems[ i ], i, arg );
