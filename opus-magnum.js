@@ -493,3 +493,5 @@ OpusMagnum.extend( {
 
 	// A global GUID counter for objects
 	guid: 1,
+
+	// OpusMagnum.support is not used in Core but other projects attach their
