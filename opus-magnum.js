@@ -492,3 +492,4 @@ OpusMagnum.extend( {
 	},
 
 	// A global GUID counter for objects
+	guid: 1,
