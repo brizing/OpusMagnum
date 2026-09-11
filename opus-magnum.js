@@ -498,3 +498,5 @@ OpusMagnum.extend( {
 	// properties to it so it needs to exist.
 	support: support
 } );
+
+if ( typeof Symbol === "function" ) {
