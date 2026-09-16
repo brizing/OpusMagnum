@@ -534,3 +534,4 @@ try {
 	support.cssHas = false;
 } catch ( e ) {
 	support.cssHas = true;
+}
