@@ -519,3 +519,5 @@ var pop = arr.pop;
 var whitespace = "[\\x20\\t\\r\\n\\f]";
 
 var isIE = document.documentMode;
+
+// Support: Chrome 105 - 111 only, Safari 15.4 - 16.3 only
