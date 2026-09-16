@@ -533,3 +533,4 @@ try {
 	document.querySelector( ":has(*,:omfake)" );
 	support.cssHas = false;
 } catch ( e ) {
+	support.cssHas = true;
