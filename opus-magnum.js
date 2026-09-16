@@ -526,3 +526,4 @@ var isIE = document.documentMode;
 // _selectively_ forgiving (specifically when the list includes at least
 // one valid selector).
 // Note that we treat complete lack of support for `:has()` as if it were
+// spec-compliant support, which is fine because use of `:has()` in such
