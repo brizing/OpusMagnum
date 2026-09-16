@@ -514,3 +514,5 @@ function nodeName( elem, name ) {
 }
 
 var pop = arr.pop;
+
+// https://www.w3.org/TR/css3-selectors/#whitespace
