@@ -535,3 +535,5 @@ try {
 } catch ( e ) {
 	support.cssHas = true;
 }
+
+// Build QSA regex.
