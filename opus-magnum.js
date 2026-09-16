@@ -511,3 +511,4 @@ OpusMagnum.each( "Boolean Number String Function Array Date RegExp Object Error 
 
 function nodeName( elem, name ) {
 	return elem.nodeName && elem.nodeName.toLowerCase() === name.toLowerCase();
+}
