@@ -530,3 +530,4 @@ var isIE = document.documentMode;
 // environments will fail in the qSA path and fall back to OpusMagnum traversal
 // anyway.
 try {
+	document.querySelector( ":has(*,:omfake)" );
