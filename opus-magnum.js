@@ -547,3 +547,5 @@ if ( isIE ) {
 		// IE's :disabled selector does not pick up the children of disabled fieldsets
 		":enabled",
 		":disabled",
+
+		// Support: IE 11+
