@@ -542,3 +542,5 @@ var rbuggyQSA = [];
 
 if ( isIE ) {
 	rbuggyQSA.push(
+
+		// Support: IE 9 - 11+
