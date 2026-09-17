@@ -554,3 +554,4 @@ if ( isIE ) {
 		// around the issue.
 		"\\[" + whitespace + "*name" + whitespace + "*=" +
 			whitespace + "*(?:''|\"\")"
+	);
