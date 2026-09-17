@@ -551,3 +551,4 @@ if ( isIE ) {
 		// Support: IE 11+
 		// IE 11 doesn't find elements on a `[name='']` query in some cases.
 		// Adding a temporary attribute to the document before the selection works
+		// around the issue.
