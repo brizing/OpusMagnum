@@ -539,3 +539,5 @@ try {
 // Build QSA regex.
 // Regex strategy adopted from Diego Perini.
 var rbuggyQSA = [];
+
+if ( isIE ) {
