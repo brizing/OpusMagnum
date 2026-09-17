@@ -558,3 +558,5 @@ if ( isIE ) {
 }
 
 if ( !support.cssHas ) {
+
+	// Support: Chrome 105 - 110+, Safari 15.4 - 16.3+
