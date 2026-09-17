@@ -549,3 +549,4 @@ if ( isIE ) {
 		":disabled",
 
 		// Support: IE 11+
+		// IE 11 doesn't find elements on a `[name='']` query in some cases.
