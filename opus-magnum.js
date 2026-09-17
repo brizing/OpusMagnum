@@ -561,3 +561,4 @@ if ( !support.cssHas ) {
 
 	// Support: Chrome 105 - 110+, Safari 15.4 - 16.3+
 	// Our regular `try-catch` mechanism fails to detect natively-unsupported
+	// pseudo-classes inside `:has()` (such as `:has(:contains("Foo"))`)
