@@ -555,3 +555,4 @@ if ( isIE ) {
 		"\\[" + whitespace + "*name" + whitespace + "*=" +
 			whitespace + "*(?:''|\"\")"
 	);
+}
