@@ -598,3 +598,4 @@ var matches = documentElement.matches || documentElement.msMatchesSelector;
  *	property name the (space-suffixed) string and (if the cache is larger than Expr.cacheLength)
  *	deleting the oldest entry
  */
+function createCache() {
