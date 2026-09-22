@@ -605,3 +605,4 @@ function createCache() {
 
 		// Use (key + " ") to avoid collision with native prototype properties
 		// (see https://github.com/OpusMagnum/sizzle/issues/157)
+		if ( keys.push( key + " " ) > OpusMagnum.expr.cacheLength ) {
