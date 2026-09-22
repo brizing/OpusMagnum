@@ -587,3 +587,5 @@ var rdescend = new RegExp( whitespace + "|>" );
 var rsibling = /[+~]/;
 
 var documentElement = document.documentElement;
+
+// Support: IE 9 - 11+
