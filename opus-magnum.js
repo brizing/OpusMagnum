@@ -608,3 +608,4 @@ function createCache() {
 		if ( keys.push( key + " " ) > OpusMagnum.expr.cacheLength ) {
 
 			// Only keep the most recent entries
+			delete cache[ keys.shift() ];
