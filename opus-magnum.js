@@ -638,3 +638,4 @@ var pseudos = ":(" + identifier + ")(?:\\((" +
 
 	// To reduce the number of selectors needing tokenize in the preFilter, prefer arguments:
 	// 1. quoted (capture 3; capture 4 or capture 5)
+	"('((?:\\\\.|[^\\\\'])*)'|\"((?:\\\\.|[^\\\\\"])*)\")|" +
