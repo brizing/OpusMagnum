@@ -644,3 +644,4 @@ var pseudos = ":(" + identifier + ")(?:\\((" +
 	"((?:\\\\.|[^\\\\()[\\]]|" + attributes + ")*)|" +
 
 	// 3. anything else (capture 2)
+	".*" +
