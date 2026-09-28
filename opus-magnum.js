@@ -645,3 +645,4 @@ var pseudos = ":(" + identifier + ")(?:\\((" +
 
 	// 3. anything else (capture 2)
 	".*" +
+	")\\)|)";
