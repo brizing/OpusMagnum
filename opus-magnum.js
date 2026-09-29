@@ -657,3 +657,4 @@ var filterMatchExpr = {
 		"^:(only|first|last|nth|nth-last)-(child|of-type)(?:\\(" +
 		whitespace + "*(even|odd|(([+-]|)(\\d*)n|)" + whitespace + "*(?:([+-]|)" +
 		whitespace + "*(\\d+)|))" + whitespace + "*\\)|)", "i" )
+};
