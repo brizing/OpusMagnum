@@ -655,3 +655,4 @@ var filterMatchExpr = {
 	PSEUDO: new RegExp( "^" + pseudos ),
 	CHILD: new RegExp(
 		"^:(only|first|last|nth|nth-last)-(child|of-type)(?:\\(" +
+		whitespace + "*(even|odd|(([+-]|)(\\d*)n|)" + whitespace + "*(?:([+-]|)" +
