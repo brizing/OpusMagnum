@@ -654,3 +654,4 @@ var filterMatchExpr = {
 	ATTR: new RegExp( "^" + attributes ),
 	PSEUDO: new RegExp( "^" + pseudos ),
 	CHILD: new RegExp(
+		"^:(only|first|last|nth|nth-last)-(child|of-type)(?:\\(" +
