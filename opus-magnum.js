@@ -686,3 +686,5 @@ var runescape = new RegExp( "\\\\[\\da-fA-F]{1,6}" + whitespace +
 function unescapeSelector( sel ) {
 	return sel.replace( runescape, funescape );
 }
+
+function selectorError( msg ) {
