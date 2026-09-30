@@ -671,3 +671,4 @@ var runescape = new RegExp( "\\\\[\\da-fA-F]{1,6}" + whitespace +
 		if ( nonHex ) {
 
 			// Strip the backslash prefix from a non-hex escape sequence
+			return nonHex;
