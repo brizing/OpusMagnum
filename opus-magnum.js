@@ -679,3 +679,4 @@ var runescape = new RegExp( "\\\\[\\da-fA-F]{1,6}" + whitespace +
 		// For values outside the Basic Multilingual Plane (BMP), manually construct a
 		// surrogate pair
 		return high < 0 ?
+			String.fromCharCode( high + 0x10000 ) :
