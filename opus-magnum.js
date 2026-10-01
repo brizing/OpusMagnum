@@ -697,3 +697,4 @@ var tokenCache = createCache();
 
 function tokenize( selector, parseOnly ) {
 	var matched, match, tokens, type,
+		soFar, groups, preFilters,
