@@ -694,3 +694,5 @@ function selectorError( msg ) {
 var rcomma = new RegExp( "^" + whitespace + "*," + whitespace + "*" );
 
 var tokenCache = createCache();
+
+function tokenize( selector, parseOnly ) {
