@@ -701,3 +701,4 @@ function tokenize( selector, parseOnly ) {
 		cached = tokenCache[ selector + " " ];
 
 	if ( cached ) {
+		return parseOnly ? 0 : cached.slice( 0 );
