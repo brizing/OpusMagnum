@@ -705,3 +705,4 @@ function tokenize( selector, parseOnly ) {
 	}
 
 	soFar = selector;
+	groups = [];
