@@ -707,3 +707,5 @@ function tokenize( selector, parseOnly ) {
 	soFar = selector;
 	groups = [];
 	preFilters = OpusMagnum.expr.preFilter;
+
+	while ( soFar ) {
