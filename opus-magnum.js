@@ -715,3 +715,4 @@ function tokenize( selector, parseOnly ) {
 			if ( match ) {
 
 				// Don't consume trailing commas as valid
+				soFar = soFar.slice( match[ 0 ].length ) || soFar;
