@@ -717,3 +717,4 @@ function tokenize( selector, parseOnly ) {
 				// Don't consume trailing commas as valid
 				soFar = soFar.slice( match[ 0 ].length ) || soFar;
 			}
+			groups.push( ( tokens = [] ) );
