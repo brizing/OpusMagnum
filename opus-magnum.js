@@ -719,3 +719,5 @@ function tokenize( selector, parseOnly ) {
 			}
 			groups.push( ( tokens = [] ) );
 		}
+
+		matched = false;
