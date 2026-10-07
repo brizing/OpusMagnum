@@ -730,3 +730,4 @@ function tokenize( selector, parseOnly ) {
 
 				// Cast descendant combinators to space
 				type: match[ 0 ].replace( rtrimCSS, " " )
+			} );
