@@ -729,3 +729,4 @@ function tokenize( selector, parseOnly ) {
 				value: matched,
 
 				// Cast descendant combinators to space
+				type: match[ 0 ].replace( rtrimCSS, " " )
