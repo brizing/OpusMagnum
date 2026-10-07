@@ -721,3 +721,5 @@ function tokenize( selector, parseOnly ) {
 		}
 
 		matched = false;
+
+		// Combinators
