@@ -725,3 +725,4 @@ function tokenize( selector, parseOnly ) {
 		// Combinators
 		if ( ( match = rleadingCombinator.exec( soFar ) ) ) {
 			matched = match.shift();
+			tokens.push( {
