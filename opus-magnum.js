@@ -732,3 +732,4 @@ function tokenize( selector, parseOnly ) {
 				type: match[ 0 ].replace( rtrimCSS, " " )
 			} );
 			soFar = soFar.slice( matched.length );
+		}
