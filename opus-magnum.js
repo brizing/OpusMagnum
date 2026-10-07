@@ -723,3 +723,4 @@ function tokenize( selector, parseOnly ) {
 		matched = false;
 
 		// Combinators
+		if ( ( match = rleadingCombinator.exec( soFar ) ) ) {
