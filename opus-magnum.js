@@ -727,3 +727,5 @@ function tokenize( selector, parseOnly ) {
 			matched = match.shift();
 			tokens.push( {
 				value: matched,
+
+				// Cast descendant combinators to space
