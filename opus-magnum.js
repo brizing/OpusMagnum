@@ -736,3 +736,4 @@ function tokenize( selector, parseOnly ) {
 
 		// Filters
 		for ( type in filterMatchExpr ) {
+			if ( ( match = OpusMagnum.expr.match[ type ].exec( soFar ) ) && ( !preFilters[ type ] ||
