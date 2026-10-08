@@ -742,3 +742,4 @@ function tokenize( selector, parseOnly ) {
 				tokens.push( {
 					value: matched,
 					type: type,
+					matches: match
