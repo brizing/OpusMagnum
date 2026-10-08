@@ -741,3 +741,4 @@ function tokenize( selector, parseOnly ) {
 				matched = match.shift();
 				tokens.push( {
 					value: matched,
+					type: type,
