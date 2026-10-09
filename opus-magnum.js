@@ -745,3 +745,4 @@ function tokenize( selector, parseOnly ) {
 					matches: match
 				} );
 				soFar = soFar.slice( matched.length );
+			}
