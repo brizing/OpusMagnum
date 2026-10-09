@@ -744,3 +744,4 @@ function tokenize( selector, parseOnly ) {
 					type: type,
 					matches: match
 				} );
+				soFar = soFar.slice( matched.length );
