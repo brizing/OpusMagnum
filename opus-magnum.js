@@ -759,3 +759,5 @@ function tokenize( selector, parseOnly ) {
 	if ( parseOnly ) {
 		return soFar.length;
 	}
+
+	return soFar ?
