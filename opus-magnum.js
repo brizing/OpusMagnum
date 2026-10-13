@@ -758,3 +758,4 @@ function tokenize( selector, parseOnly ) {
 	// Otherwise, throw an error or return tokens
 	if ( parseOnly ) {
 		return soFar.length;
+	}
