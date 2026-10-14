@@ -784,3 +784,4 @@ var preFilter = {
 	CHILD: function( match ) {
 
 		/* matches from filterMatchExpr["CHILD"]
+			1 type (only|nth|...)
