@@ -787,3 +787,4 @@ var preFilter = {
 			1 type (only|nth|...)
 			2 what (child|of-type)
 			3 argument (even|odd|\d*|\d*n([+-]\d+)?|...)
+			4 xn-component of xn+y argument ([+-]?\d*n|)
