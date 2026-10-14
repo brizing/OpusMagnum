@@ -768,3 +768,4 @@ function tokenize( selector, parseOnly ) {
 }
 
 var preFilter = {
+	ATTR: function( match ) {
