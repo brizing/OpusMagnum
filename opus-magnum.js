@@ -782,3 +782,5 @@ var preFilter = {
 	},
 
 	CHILD: function( match ) {
+
+		/* matches from filterMatchExpr["CHILD"]
