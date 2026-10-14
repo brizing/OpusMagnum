@@ -766,3 +766,5 @@ function tokenize( selector, parseOnly ) {
 		// Cache the tokens
 		tokenCache( selector, groups ).slice( 0 );
 }
+
+var preFilter = {
