@@ -790,3 +790,4 @@ var preFilter = {
 			4 xn-component of xn+y argument ([+-]?\d*n|)
 			5 sign of xn-component
 			6 x of xn-component
+			7 sign of y-component
