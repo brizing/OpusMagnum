@@ -789,3 +789,4 @@ var preFilter = {
 			3 argument (even|odd|\d*|\d*n([+-]\d+)?|...)
 			4 xn-component of xn+y argument ([+-]?\d*n|)
 			5 sign of xn-component
+			6 x of xn-component
