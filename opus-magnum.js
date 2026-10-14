@@ -773,3 +773,5 @@ var preFilter = {
 
 		// Move the given value to match[3] whether quoted or unquoted
 		match[ 3 ] = unescapeSelector( match[ 3 ] || match[ 4 ] || match[ 5 ] || "" );
+
+		if ( match[ 2 ] === "~=" ) {
