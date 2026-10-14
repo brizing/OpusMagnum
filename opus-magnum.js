@@ -776,3 +776,4 @@ var preFilter = {
 
 		if ( match[ 2 ] === "~=" ) {
 			match[ 3 ] = " " + match[ 3 ] + " ";
+		}
