@@ -786,3 +786,4 @@ var preFilter = {
 		/* matches from filterMatchExpr["CHILD"]
 			1 type (only|nth|...)
 			2 what (child|of-type)
+			3 argument (even|odd|\d*|\d*n([+-]\d+)?|...)
