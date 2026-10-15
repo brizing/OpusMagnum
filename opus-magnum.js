@@ -15,3 +15,5 @@
 } )( typeof window !== "undefined" ? window : this, function( window, noGlobal ) {
 
 "use strict";
+
+if ( !window.document ) {
