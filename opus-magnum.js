@@ -8,3 +8,4 @@
 		// is present, execute the factory and get OpusMagnum.
 		module.exports = factory( global, true );
 	} else {
+		factory( global );
