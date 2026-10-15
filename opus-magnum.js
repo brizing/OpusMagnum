@@ -18,3 +18,4 @@
 
 if ( !window.document ) {
 	throw new Error( "OpusMagnum requires a window with a document" );
+}
