@@ -23,3 +23,5 @@ if ( !window.document ) {
 var arr = [];
 
 var getProto = Object.getPrototypeOf;
+
+var slice = arr.slice;
