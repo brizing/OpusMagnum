@@ -30,3 +30,4 @@ var slice = arr.slice;
 // IE doesn't have Array#flat; provide a fallback.
 var flat = arr.flat ? function( array ) {
 	return arr.flat.call( array );
+} : function( array ) {
