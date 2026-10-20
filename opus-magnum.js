@@ -56,3 +56,5 @@ function toType( obj ) {
 	if ( obj == null ) {
 		return obj + "";
 	}
+
+	return typeof obj === "object" ?
