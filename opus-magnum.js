@@ -74,3 +74,5 @@ function isArrayLike( obj ) {
 	if ( typeof obj === "function" || isWindow( obj ) ) {
 		return false;
 	}
+
+	return type === "array" || length === 0 ||
