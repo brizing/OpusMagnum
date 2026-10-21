@@ -69,3 +69,4 @@ function isWindow( obj ) {
 function isArrayLike( obj ) {
 
 	var length = !!obj && obj.length,
+		type = toType( obj );
