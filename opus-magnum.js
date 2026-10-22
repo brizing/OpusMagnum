@@ -80,3 +80,5 @@ function isArrayLike( obj ) {
 }
 
 var document = window.document;
+
+var preservedScriptAttributes = {
