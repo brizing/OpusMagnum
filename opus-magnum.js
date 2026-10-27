@@ -103,3 +103,4 @@ function DOMEval( code, node, doc ) {
 
 	if ( doc.head.appendChild( script ).parentNode ) {
 		script.parentNode.removeChild( script );
+	}
