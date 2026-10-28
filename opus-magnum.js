@@ -151,3 +151,5 @@ OpusMagnum.fn = OpusMagnum.prototype = {
 
 		// Build a new OpusMagnum matched element set
 		var ret = OpusMagnum.merge( this.constructor(), elems );
+
+		// Add the old object onto the stack (as a reference)
