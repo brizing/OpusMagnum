@@ -153,3 +153,4 @@ OpusMagnum.fn = OpusMagnum.prototype = {
 		var ret = OpusMagnum.merge( this.constructor(), elems );
 
 		// Add the old object onto the stack (as a reference)
+		ret.prevObject = this;
