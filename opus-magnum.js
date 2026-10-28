@@ -161,3 +161,4 @@ OpusMagnum.fn = OpusMagnum.prototype = {
 
 	// Execute a callback for every element in the matched set.
 	each: function( callback ) {
+		return OpusMagnum.each( this, callback );
