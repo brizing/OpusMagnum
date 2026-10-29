@@ -180,3 +180,4 @@ OpusMagnum.fn = OpusMagnum.prototype = {
 
 	last: function() {
 		return this.eq( -1 );
+	},
