@@ -196,3 +196,4 @@ OpusMagnum.fn = OpusMagnum.prototype = {
 
 	eq: function( i ) {
 		var len = this.length,
+			j = +i + ( i < 0 ? len : 0 );
