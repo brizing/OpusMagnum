@@ -190,3 +190,4 @@ OpusMagnum.fn = OpusMagnum.prototype = {
 
 	odd: function() {
 		return this.pushStack( OpusMagnum.grep( this, function( _elem, i ) {
+			return i % 2;
