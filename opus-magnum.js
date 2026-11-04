@@ -214,3 +214,4 @@ OpusMagnum.extend = OpusMagnum.fn.extend = function() {
 
 	// Handle a deep copy situation
 	if ( typeof target === "boolean" ) {
+		deep = target;
