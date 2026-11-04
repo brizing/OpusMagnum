@@ -206,3 +206,4 @@ OpusMagnum.fn = OpusMagnum.prototype = {
 };
 
 OpusMagnum.extend = OpusMagnum.fn.extend = function() {
+	var options, name, src, copy, copyIsArray, clone,
