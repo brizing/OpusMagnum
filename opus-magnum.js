@@ -230,3 +230,4 @@ OpusMagnum.extend = OpusMagnum.fn.extend = function() {
 	if ( i === length ) {
 		target = this;
 		i--;
+	}
