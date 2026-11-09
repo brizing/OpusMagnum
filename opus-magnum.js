@@ -235,3 +235,4 @@ OpusMagnum.extend = OpusMagnum.fn.extend = function() {
 	for ( ; i < length; i++ ) {
 
 		// Only deal with non-null/undefined values
+		if ( ( options = arguments[ i ] ) != null ) {
