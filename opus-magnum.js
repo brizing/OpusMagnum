@@ -246,3 +246,5 @@ OpusMagnum.extend = OpusMagnum.fn.extend = function() {
 				if ( name === "__proto__" || target === copy ) {
 					continue;
 				}
+
+				// Recurse if we're merging plain objects or arrays
