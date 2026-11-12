@@ -258,3 +258,4 @@ OpusMagnum.extend = OpusMagnum.fn.extend = function() {
 					} else if ( !copyIsArray && !OpusMagnum.isPlainObject( src ) ) {
 						clone = {};
 					} else {
+						clone = src;
