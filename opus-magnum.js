@@ -263,3 +263,4 @@ OpusMagnum.extend = OpusMagnum.fn.extend = function() {
 					copyIsArray = false;
 
 					// Never move original objects, clone them
+					target[ name ] = OpusMagnum.extend( deep, clone, copy );
