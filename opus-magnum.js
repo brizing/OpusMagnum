@@ -266,3 +266,4 @@ OpusMagnum.extend = OpusMagnum.fn.extend = function() {
 					target[ name ] = OpusMagnum.extend( deep, clone, copy );
 
 				// Don't bring in undefined values
+				} else if ( copy !== undefined ) {
