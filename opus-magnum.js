@@ -280,3 +280,4 @@ OpusMagnum.extend = OpusMagnum.fn.extend = function() {
 OpusMagnum.extend( {
 
 	// Unique for each copy of OpusMagnum on the page
+	expando: "OpusMagnum" + ( version + Math.random() ).replace( /\D/g, "" ),
