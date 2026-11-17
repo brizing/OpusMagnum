@@ -290,3 +290,5 @@ OpusMagnum.extend( {
 	},
 
 	noop: function() {},
+
+	isPlainObject: function( obj ) {
