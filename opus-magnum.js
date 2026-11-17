@@ -299,3 +299,5 @@ OpusMagnum.extend( {
 		if ( !obj || toString.call( obj ) !== "[object Object]" ) {
 			return false;
 		}
+
+		proto = getProto( obj );
