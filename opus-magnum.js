@@ -293,3 +293,5 @@ OpusMagnum.extend( {
 
 	isPlainObject: function( obj ) {
 		var proto, Ctor;
+
+		// Detect obvious negatives
