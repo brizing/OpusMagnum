@@ -326,3 +326,5 @@ OpusMagnum.extend( {
 	globalEval: function( code, options, doc ) {
 		DOMEval( code, { nonce: options && options.nonce }, doc );
 	},
+
+	each: function( obj, callback ) {
