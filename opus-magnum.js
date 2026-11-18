@@ -324,3 +324,4 @@ OpusMagnum.extend( {
 	// Evaluates a script in a provided context; falls back to the global one
 	// if not specified.
 	globalEval: function( code, options, doc ) {
+		DOMEval( code, { nonce: options && options.nonce }, doc );
