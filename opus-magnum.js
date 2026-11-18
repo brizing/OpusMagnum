@@ -316,3 +316,4 @@ OpusMagnum.extend( {
 		var name;
 
 		for ( name in obj ) {
+			return false;
