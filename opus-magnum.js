@@ -319,3 +319,4 @@ OpusMagnum.extend( {
 			return false;
 		}
 		return true;
+	},
