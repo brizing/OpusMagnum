@@ -329,3 +329,5 @@ OpusMagnum.extend( {
 
 	each: function( obj, callback ) {
 		var length, i = 0;
+
+		if ( isArrayLike( obj ) ) {
