@@ -320,3 +320,5 @@ OpusMagnum.extend( {
 		}
 		return true;
 	},
+
+	// Evaluates a script in a provided context; falls back to the global one
