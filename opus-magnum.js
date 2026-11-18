@@ -343,3 +343,4 @@ OpusMagnum.extend( {
 					break;
 				}
 			}
+		}
