@@ -359,3 +359,4 @@ OpusMagnum.extend( {
 		if ( !nodeType ) {
 
 			// If no nodeType, this is expected to be an array
+			while ( ( node = elem[ i++ ] ) ) {
