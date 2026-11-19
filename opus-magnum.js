@@ -347,3 +347,6 @@ OpusMagnum.extend( {
 
 		return obj;
 	},
+
+
+	// Retrieve the text value of an array of DOM nodes
