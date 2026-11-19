@@ -357,3 +357,5 @@ OpusMagnum.extend( {
 			nodeType = elem.nodeType;
 
 		if ( !nodeType ) {
+
+			// If no nodeType, this is expected to be an array
