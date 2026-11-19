@@ -353,3 +353,4 @@ OpusMagnum.extend( {
 	text: function( elem ) {
 		var node,
 			ret = "",
+			i = 0,
