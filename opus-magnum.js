@@ -360,3 +360,5 @@ OpusMagnum.extend( {
 
 			// If no nodeType, this is expected to be an array
 			while ( ( node = elem[ i++ ] ) ) {
+
+				// Do not traverse comment nodes
