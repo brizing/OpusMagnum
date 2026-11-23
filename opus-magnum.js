@@ -368,3 +368,4 @@ OpusMagnum.extend( {
 		if ( nodeType === 1 || nodeType === 11 ) {
 			return elem.textContent;
 		}
+		if ( nodeType === 9 ) {
