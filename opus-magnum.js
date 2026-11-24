@@ -389,3 +389,4 @@ OpusMagnum.extend( {
 			if ( isArrayLike( Object( arr ) ) ) {
 				OpusMagnum.merge( ret,
 					typeof arr === "string" ?
+						[ arr ] : arr
