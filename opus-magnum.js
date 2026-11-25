@@ -393,3 +393,4 @@ OpusMagnum.extend( {
 				);
 			} else {
 				push.call( ret, arr );
+			}
