@@ -404,3 +404,4 @@ OpusMagnum.extend( {
 	},
 
 	isXMLDoc: function( elem ) {
+		var namespace = elem && elem.namespaceURI,
