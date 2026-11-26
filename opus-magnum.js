@@ -411,3 +411,5 @@ OpusMagnum.extend( {
 		// document fragments.
 		return !rhtmlSuffix.test( namespace || docElem && docElem.nodeName || "HTML" );
 	},
+
+	// Note: an element does not contain itself
