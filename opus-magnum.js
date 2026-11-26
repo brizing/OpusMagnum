@@ -414,3 +414,4 @@ OpusMagnum.extend( {
 
 	// Note: an element does not contain itself
 	contains: function( a, b ) {
+		var bup = b && b.parentNode;
