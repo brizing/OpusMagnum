@@ -421,3 +421,4 @@ OpusMagnum.extend( {
 			// Support: IE 9 - 11+
 			// IE doesn't have `contains` on SVG.
 			a.contains ?
+				a.contains( bup ) :
